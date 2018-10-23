@@ -1,0 +1,58 @@
+action items:
+	1. zaki will set up rasbery pi
+		+ 
+	2. ask beverly about "screen" in tcp_dump
+	3. why can't we run this in python
+	4. pick sites to test
+
+
+
+my questions:
+	our Q: "how reliable are home networks"
+	are we qualified to suggest improvments???
+
+review session notes:
+	use 'ping' AND 
+	    1. ping local gateway, 
+	    2. traceroute
+	record when packets sent
+	10 min grain (what is meaningful time)
+	pings are harmless
+	pick a target that isn't part of a CDN
+	we need 1 month of running data
+?		does this fit with deadlines?
+
+methodology:
+	run tcp dump
+	write to pcap
+?	"screen" to run in background?
+		^ run process in background
+		^ it will keep processes running if we log out
+	use shell script
+
+
+
+======================
+
+CS4558 Project Proposal
+
+Project Name: Investigation into residential local area networks (LAN) performance.
+
+Team members: 
+Alex Hardt (ahardt@nps.edu)
+Corey Lutton (celutton1@nps.edu)
+Zaki Rucker (zarucker@nps.edu)
+
+Research Problem: 
+How reliable is the typical residential LAN and what can be done to improve its reliability?
+
+Most users have no idea of the uptime or reliability of their residential network. The only time most LAN problems are noticed is when when the user is actually trying to use her network and notices latency or even a complete lack of connectivity. The remedy that users then take is to manually reset each of the devices that are perceived to be impacted in the hopes that will correct the issue. While this can be effective given, the user is reduced to trial and error in correcting LAN issues and does not have any way to isolate and identify problem area(s) in her LAN. The user also does not have any means of tracking LAN performance over time to better understand trends in performance.
+
+Research Methodology: 
+In this project, we will collect home network reliability data by implementing a client on a Raspberry Pi computer to send a periodic internet control message protocol (ICMP) request from residential networks over a period of time  (e.g. the course of a month) to a set of content/service providers such as Google, Facebook, and YouTube. 
+
+We will then analyze the packets received from each of the clients to characterize the actual uptime and availability of the residential LANs and suggest ways to improve the residential LAN by increasing uptime and decreasing latency. The analysis will seek to discern differences between the networks and differences between the content/service providers. 
+
+Resources Needed:
+3-4 Raspberry PI computers
+Access to several residential networks serviced by different internet service providers (e.g. Comcast, Time Warner, AT&T) 
