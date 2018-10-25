@@ -1,9 +1,43 @@
+
+session 2 below 
+
+limit pings
+detect failed pings
+how to store pings
+
+zaki thesis:
+	1. diurnal for all pings
+	2. how does each site's response compare to average
+	3. re traceroute, how quickly does our path converge
+
+ping:
+	how long it takes to get to service
+	IDEAS:
+		we xpect CDNs to be faster
+		diurnal patern
+
+traceroute
+	what is route to get to service
+		IDEAS:
+			assumptions: our paths will converge
+			ZAKI: assumes CDN sites will be w/in one convergence
+
+
+
+
+==============
+session 1 below
+
 action items:
 	1. zaki will set up rasbery pi
 		+ 
 	2. ask beverly about "screen" in tcp_dump
 	3. why can't we run this in python
 	4. pick sites to test
+	5. teach git, set up public repo
+	6. make sure we're on same page for gateway default 
+
+we are pinging the default gateway router because we want to confirm out network is up. we want to test the service provider's service, not our own network.
 
 
 
@@ -13,8 +47,12 @@ my questions:
 
 review session notes:
 	use 'ping' AND 
+
 	    1. ping local gateway, 
+
 	    2. traceroute
+	    3. cli spped test
+
 	record when packets sent
 	10 min grain (what is meaningful time)
 	pings are harmless
