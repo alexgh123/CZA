@@ -1,4 +1,20 @@
 
+
+fields:
+ip, avg_time of 5 pings, tod, 
+
+---- now ----
+
+to handle failure?
+	not a failure, i was impatient
+
+------------
+
+to parse input
+	grep gateway | cut -d':' -f 2
+
+
+
 session 2 below 
 
 limit pings
