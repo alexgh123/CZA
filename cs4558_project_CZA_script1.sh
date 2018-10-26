@@ -1,7 +1,9 @@
 
 
 NUM_PINGS=5
-# urls_to_ping = []
+ARRAY_OF_HOSTS=("google.com", "netflix.com", "three")
+PING_OUTPUT_FILE="outFile.txt"
+
 
 #specs:
 	#desired output:
@@ -14,21 +16,32 @@ DEF_GATE_WAY_STRING="$(route get default | grep gateway | cut -d':' -f 2)"
 # echo"x"
 #echo "$DEF_GATE_WAY_STRING"
 
-HOST=$DEF_GATE_WAY_STRING
+HOST="googsssssssle.com"
 
-ping -c1 $HOST #1>/dev/null 2>/dev/null
+#what does this line of code mean?
+#   #1>/dev/null 2>/dev/null
+# send std_error (2) to /dev/null
+# send std_output(1) to /dev/nul
+# a failed ping will only write to outfile if we pipe #2 as seen below
+
+ping -c1 $HOST 1>"$PING_OUTPUT_FILE" 2>"$PING_OUTPUT_FILE"
 SUCCESS=$?
 
 if [ $SUCCESS -eq 0 ]
 then
-  echo "$HOST has replied"
+   echo "$HOST has replied, proceeding to ping"
+
 else
   echo "$HOST didn't reply"
 fi
+
+
+
 #EOF
 
-# check for success of gateway ping
+#DONE # check for success of gateway ping
 	# if ping gateway success, 
+		# record successful gateway ping
 		# ping list of hosts
 			#use average of 2-5 pings 
 				#ping -c 5 url
