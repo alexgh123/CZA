@@ -100,12 +100,22 @@ then
         
         #foo="$foo World"
        # PING_RESULT="$(ping -c $NUM_PINGS $i)"
-        IP_OF_HOST="$(dig +short $i)"
-        echo " "
-        echo " "
+       # AVG_TIME_OF_PINGS=$(echo "$PING_RESULT" | tail -1| awk '{print $4}' | cut -d '/' -f 2)
+        
+        #https://unix.stackexchange.com/questions/307895/pulling-ip-address-from-ping-command-with-sed
+        IP_OF_HOST="$(echo "$PING_RESULT" | sed -nE 's/^PING[^(]+\(([^)]+)\).*/\1/p')"
+
+
 
         OUTPUT="$IP_OF_HOST , $i , $AVG_TIME_OF_PINGS , $DATE_TIME "
         echo "$OUTPUT ">> "$PING_OUTPUT_FILE"
+
+        echo " "
+        echo "here is output variable: "
+        echo "$OUTPUT"
+        echo " "
+
+
         
         # echo "ping sent at $DATE_TIME" >> "$PING_OUTPUT_FILE"
         #for formatting
