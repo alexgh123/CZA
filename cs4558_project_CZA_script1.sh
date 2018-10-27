@@ -7,7 +7,7 @@
 #ip, url, avg_time_of_NUM_PINGS, tod
 
 NUM_PINGS=3
-ARRAY_OF_HOSTS=("google.com" ) #"yahoo.com" "netflix.com"
+ARRAY_OF_HOSTS=("google.com" "yahoo.com" "netflix.com") #
 PING_OUTPUT_FILE="outFile.txt"
 
 DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S');
@@ -49,7 +49,9 @@ then
     for i in "${ARRAY_OF_HOSTS[@]}"
     do
 
- 
+    	OUTPUT=""
+    	#foo="$foo World"
+
     	#we want actual time ping sent, so we reinvoke the method
     	DATE_TIME1=$(date '+%d/%m/%Y %H:%M:%S');
 
@@ -71,34 +73,41 @@ then
 		# PING_RESULT="$(ping -c $NUM_PINGS $i 1>>"$PING_OUTPUT_FILE" 2>>"$PING_OUTPUT_FILE")"
         # ping -c $NUM_PINGS $i 1>>"$PING_OUTPUT_FILE" 2>>"$PING_OUTPUT_FILE"
 
-        echo " "
-       	echo " 00000000000 " 
-       	echo " "
+        # echo " "
+       	# echo " 00000000000 " 
+       	# echo " "
         
-        echo "here \/  (avg time, ip)"
-        echo "$AVG_TIME_OF_PINGS"
+        # echo "here \/  (avg time, ip)"
+        # echo "$AVG_TIME_OF_PINGS"
 
-        echo " "
-       	echo " 11111111111 " 
-       	echo " "
+        # echo " "
+       	# echo " 11111111111 " 
+       	# echo " "
 
         # echo "$PING_RESULT"
 
 
-        echo "$i"
+        # echo "$i"
         # echo "$SUCCESS"
         # ping -c "$NUM_PINGS" $i | tail -1| awk '{print $4}' | cut -d '/' -f 2
        
-       	echo " "
-       	echo " 22222222222 " 
-       	echo " "
+       	# echo " "
+       	# echo " 22222222222 " 
+       	# echo " "
 
 
         # PING_RESULT1="$(ping -c $NUM_PINGS $i | cut -d'=' -f 2)"
         
+        #foo="$foo World"
+       # PING_RESULT="$(ping -c $NUM_PINGS $i)"
+        IP_OF_HOST="$(dig +short $i)"
+        echo " "
+        echo " "
 
+        OUTPUT="$IP_OF_HOST , $i , $AVG_TIME_OF_PINGS , $DATE_TIME "
+        echo "$OUTPUT ">> "$PING_OUTPUT_FILE"
         
-        echo "ping sent at $DATE_TIME" >> "$PING_OUTPUT_FILE"
+        # echo "ping sent at $DATE_TIME" >> "$PING_OUTPUT_FILE"
         #for formatting
         #echo "success code:" >> "$PING_OUTPUT_FILE"
         #echo "$SUCCESS" >> "$PING_OUTPUT_FILE"
