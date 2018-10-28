@@ -9,7 +9,7 @@
 HOST="$(ip route | grep default | cut -d " " -f 3)"
 
 NUM_PINGS=3
-ARRAY_OF_HOSTS=("$HOST" "google.com" "yahoo.com" "netflix.com") #
+ARRAY_OF_HOSTS=("$HOST" "google.com" "yahoo.com" "aline.com" "vatican.com" "facebook.com" "navycaptain-therealnavy.blogspot.com" ) #
 PING_OUTPUT_FILE="outFile.txt"
 
 DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S %Z');
