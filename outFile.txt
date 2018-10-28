@@ -1,0 +1,96 @@
+script starting at 28/10/2018 20:08:03
+from this device:
+uid=1001(nettraff) gid=1001(nettraff) groups=1001(nettraff)
+10.0.1.1 , 10.0.1.1 , 0.395 , 28/10/2018 20:08:03  
+52.37.69.124 , netflix.com , 0 , 28/10/2018 19:42:46  
+216.58.194.206 , google.com , 11.454 , 28/10/2018 20:08:03  
+98.138.219.232 , yahoo.com , 45.220 , 28/10/2018 20:08:03  
+PING 10.0.1.1 (10.0.1.1) 56(84) bytes of data.
+64 bytes from 10.0.1.1: icmp_seq=1 ttl=255 time=0.428 ms
+
+--- 10.0.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.428/0.428/0.428/0.000 ms
+ 
+begining pings of hosts
+ 
+216.58.194.206 , google.com , 11.327 , 28/10/2018 19:42:46  
+98.138.219.232 , yahoo.com , 45.009 , 28/10/2018 19:42:46  
+52.37.69.124 , netflix.com , 0 , 28/10/2018 20:08:03  
+52.37.69.124 , netflix.com , 0 , 28/10/2018 19:42:46  
+10.0.1.1 , 10.0.1.1 , 0.396 , 28/10/2018 20:08:03  
+216.58.194.206 , google.com , 11.781 , 28/10/2018 20:08:03  
+98.138.219.232 , yahoo.com , 45.452 , 28/10/2018 20:08:03  
+PING 10.0.1.1 (10.0.1.1) 56(84) bytes of data.
+64 bytes from 10.0.1.1: icmp_seq=1 ttl=255 time=0.482 ms
+
+--- 10.0.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.482/0.482/0.482/0.000 ms
+ 
+begining pings of hosts
+ 
+216.58.194.206 , google.com , 11.778 , 28/10/2018 19:42:46  
+98.138.219.232 , yahoo.com , 44.838 , 28/10/2018 19:42:46  
+52.37.69.124 , netflix.com , 0 , 28/10/2018 20:08:03  
+52.37.69.124 , netflix.com , 0 , 28/10/2018 19:42:46  
+PING 10.0.1.1 (10.0.1.1) 56(84) bytes of data.
+64 bytes from 10.0.1.1: icmp_seq=1 ttl=255 time=0.433 ms
+
+--- 10.0.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.433/0.433/0.433/0.000 ms
+ 
+begining pings of hosts
+ 
+216.58.194.206 , google.com , 11.699 , 28/10/2018 19:42:46  
+98.138.219.232 , yahoo.com , 44.854 , 28/10/2018 19:42:46  
+52.88.70.220 , netflix.com , 0 , 28/10/2018 19:42:46  
+PING 10.0.1.1 (10.0.1.1) 56(84) bytes of data.
+64 bytes from 10.0.1.1: icmp_seq=1 ttl=255 time=0.478 ms
+
+--- 10.0.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.478/0.478/0.478/0.000 ms
+ 
+begining pings of hosts
+ 
+216.58.194.206 , google.com , 11.376 , 28/10/2018 19:42:46  
+98.138.219.232 , yahoo.com , 45.359 , 28/10/2018 19:42:46  
+52.88.70.220 , netflix.com , 0 , 28/10/2018 19:42:46  
+PING 10.0.1.1 (10.0.1.1) 56(84) bytes of data.
+64 bytes from 10.0.1.1: icmp_seq=1 ttl=255 time=0.490 ms
+
+--- 10.0.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.490/0.490/0.490/0.000 ms
+ 
+begining pings of hosts
+ 
+216.58.194.206 , google.com , 11.622 , 28/10/2018 19:42:46  
+98.138.219.232 , yahoo.com , 44.935 , 28/10/2018 19:42:46  
+52.88.70.220 , netflix.com , 0 , 28/10/2018 19:42:46  
+PING 10.0.1.1 (10.0.1.1) 56(84) bytes of data.
+64 bytes from 10.0.1.1: icmp_seq=1 ttl=255 time=0.478 ms
+
+--- 10.0.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.478/0.478/0.478/0.000 ms
+ 
+begining pings of hosts
+ 
+216.58.194.206 , google.com , 11.581 , 28/10/2018 19:42:46  
+98.138.219.232 , yahoo.com , 45.007 , 28/10/2018 19:42:46  
+52.37.77.112 , netflix.com , 0 , 28/10/2018 19:42:46  
+PING 10.0.1.1 (10.0.1.1) 56(84) bytes of data.
+64 bytes from 10.0.1.1: icmp_seq=1 ttl=255 time=0.470 ms
+
+--- 10.0.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.470/0.470/0.470/0.000 ms
+ 
+begining pings of hosts
+ 
+216.58.194.206 , google.com , 13.989 , 28/10/2018 19:42:46  
+98.138.219.232 , yahoo.com , 44.935 , 28/10/2018 19:42:46  
+52.37.77.112 , netflix.com , 0 , 28/10/2018 19:42:46  

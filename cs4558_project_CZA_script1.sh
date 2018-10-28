@@ -10,6 +10,7 @@ HOST="$(ip route | grep default | cut -d " " -f 3)"
 
 NUM_PINGS=3
 ARRAY_OF_HOSTS=("$HOST" "google.com" "yahoo.com" "netflix.com") #
+echo "$ARRAY_OF_HOSTS"
 PING_OUTPUT_FILE="outFile.txt"
 
 DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S');
@@ -35,7 +36,7 @@ do
     # ping -c 1 $HOST 
     # SUCCESS=$?
     
-    
+   SUCCESS=0 
     if [ $SUCCESS -eq 0 ]
     then
         echo "$HOST has replied, proceeding to ping list of hosts"
