@@ -22,7 +22,7 @@ id >> "$PING_OUTPUT_FILE"
 		# 2. need a timestamp
 
 #1.find default gateway 
-DEF_GATE_WAY_STRING="$(route get default | grep gateway | cut -d':' -f 2)"
+DEF_GATE_WAY_STRING="$(ip route | grep default | cut -d " " -f 3)"
 # echo"x"
 #echo "$DEF_GATE_WAY_STRING"
 
