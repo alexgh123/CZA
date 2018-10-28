@@ -10,7 +10,6 @@ HOST="$(ip route | grep default | cut -d " " -f 3)"
 
 NUM_PINGS=3
 ARRAY_OF_HOSTS=("$HOST" "google.com" "yahoo.com" "netflix.com") #
-echo "$ARRAY_OF_HOSTS"
 PING_OUTPUT_FILE="outFile.txt"
 
 DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S');
@@ -27,14 +26,6 @@ id >> "$PING_OUTPUT_FILE"
 
 while(true)
 do
-    #loop
-
-
-    #1.find default gateway 
-    # HOST="$(ip route | grep default | cut -d " " -f 3)"
-    
-    # ping -c 1 $HOST 
-    # SUCCESS=$?
     
    SUCCESS=0 
     if [ $SUCCESS -eq 0 ]
@@ -57,16 +48,8 @@ do
             #https://unix.stackexchange.com/questions/307895/pulling-ip-address-from-ping-command-with-sed
             IP_OF_HOST="$(echo "$PING_RESULT" | sed -nE 's/^PING[^(]+\(([^)]+)\).*/\1/p')"
     
-    
-    
             OUTPUT="$IP_OF_HOST , $i , $AVG_TIME_OF_PINGS , $DATE_TIME "
             echo "$OUTPUT ">> "$PING_OUTPUT_FILE"
-    
-            echo " "
-            echo "here is output variable: "
-            echo "$OUTPUT"
-            echo " "
-    
     
             if [ $SUCCESS -eq 0 ] ; then
             	echo "successful ping"
