@@ -7,7 +7,7 @@
 #ip, url, avg_time_of_NUM_PINGS, tod
 
 NUM_PINGS=3
-ARRAY_OF_HOSTS="google.com" "yahoo.com" "netflix.com" #
+ARRAY_OF_HOSTS=("google.com" "yahoo.com" "netflix.com") #
 PING_OUTPUT_FILE="outFile.txt"
 
 DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S');

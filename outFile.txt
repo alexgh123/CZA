@@ -1,15 +1,15 @@
-script starting at 28/10/2018 18:05:14
+script starting at 28/10/2018 19:30:32
 from this device:
 uid=1001(nettraff) gid=1001(nettraff) groups=1001(nettraff)
-Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
-            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
-            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
-            [-w deadline] [-W timeout] [hop1 ...] destination
-Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
-             [-l preload] [-m mark] [-M pmtudisc_option]
-             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
-             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
-             [-W timeout] destination
+PING 10.0.1.1 (10.0.1.1) 56(84) bytes of data.
+64 bytes from 10.0.1.1: icmp_seq=1 ttl=255 time=0.482 ms
+
+--- 10.0.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.482/0.482/0.482/0.000 ms
  
 begining pings of hosts
  
+172.217.0.46 , google.com , 12.014 , 28/10/2018 19:30:32  
+98.138.219.232 , yahoo.com , 44.749 , 28/10/2018 19:30:32  
+52.88.70.220 , netflix.com , 0 , 28/10/2018 19:30:32  
