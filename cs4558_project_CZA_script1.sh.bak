@@ -7,7 +7,7 @@
 #ip, url, avg_time_of_NUM_PINGS, tod
 
 NUM_PINGS=3
-ARRAY_OF_HOSTS="google.com" "yahoo.com" "netflix.com" #
+ARRAY_OF_HOSTS=("google.com" "yahoo.com" "netflix.com") #
 PING_OUTPUT_FILE="outFile.txt"
 
 DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S');
@@ -22,7 +22,7 @@ id >> "$PING_OUTPUT_FILE"
 		# 2. need a timestamp
 
 #1.find default gateway 
-DEF_GATE_WAY_STRING="$(ip route | grep default | cut -d " " -f 3)"
+DEF_GATE_WAY_STRING="$(route get default | grep gateway | cut -d':' -f 2)"
 # echo"x"
 #echo "$DEF_GATE_WAY_STRING"
 
@@ -35,7 +35,7 @@ HOST="$DEF_GATE_WAY_STRING"
 # send std_output(1) to /dev/nul
 # a failed ping will only write to outfile if we pipe #2 as seen below
 
-ping -c 1 $HOST 1>>"$PING_OUTPUT_FILE" 2>>"$PING_OUTPUT_FILE"
+ping -c1 $HOST 1>>"$PING_OUTPUT_FILE" 2>>"$PING_OUTPUT_FILE"
 SUCCESS=$?
 
 echo " " >> "$PING_OUTPUT_FILE"
