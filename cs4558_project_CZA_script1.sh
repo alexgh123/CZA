@@ -39,7 +39,7 @@ do
         	#foo="$foo World"
     
         	#we want actual time ping sent, so we reinvoke the method
-        	DATE_TIME1=$(date '+%d/%m/%Y %H:%M:%S');
+        	DATE_TIME1=$(date '+%d/%m/%Y %H:%M:%S %Z');
     
             PING_RESULT="$(ping -c $NUM_PINGS $i)"
         	SUCCESS=$?
@@ -48,7 +48,7 @@ do
             #https://unix.stackexchange.com/questions/307895/pulling-ip-address-from-ping-command-with-sed
             IP_OF_HOST="$(echo "$PING_RESULT" | sed -nE 's/^PING[^(]+\(([^)]+)\).*/\1/p')"
     
-            OUTPUT="$IP_OF_HOST , $i , $AVG_TIME_OF_PINGS , $DATE_TIME "
+            OUTPUT="$IP_OF_HOST , $i , $AVG_TIME_OF_PINGS , $DATE_TIME1 "
             echo "$OUTPUT ">> "$PING_OUTPUT_FILE"
     
             if [ $SUCCESS -eq 0 ] ; then
