@@ -35,7 +35,7 @@ HOST="$DEF_GATE_WAY_STRING"
 # send std_output(1) to /dev/nul
 # a failed ping will only write to outfile if we pipe #2 as seen below
 
-ping -c1 $HOST 1>>"$PING_OUTPUT_FILE" 2>>"$PING_OUTPUT_FILE"
+ping -c 1 $HOST 1>>"$PING_OUTPUT_FILE" 2>>"$PING_OUTPUT_FILE"
 SUCCESS=$?
 
 echo " " >> "$PING_OUTPUT_FILE"
