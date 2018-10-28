@@ -12,7 +12,7 @@ NUM_PINGS=3
 ARRAY_OF_HOSTS=("$HOST" "google.com" "yahoo.com" "netflix.com") #
 PING_OUTPUT_FILE="outFile.txt"
 
-DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S');
+DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S %Z');
 echo "script starting at $DATE_TIME"> "$PING_OUTPUT_FILE"
 echo "from this device:" >> "$PING_OUTPUT_FILE"
 id >> "$PING_OUTPUT_FILE"
@@ -59,11 +59,9 @@ do
             	#other stuff
             fi
             
-    
         done
         #echo "out of ARRAY_OF_HOSTS loop"
-    
-    
+
     else
       echo "$HOST didn't reply"
     fi
@@ -71,7 +69,6 @@ do
     #sleep
     sleep 10 #seconds
 done
-
 
 #EOF
 
