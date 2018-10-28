@@ -6,8 +6,10 @@
 
 #ip, url, avg_time_of_NUM_PINGS, tod
 
+HOST="$(ip route | grep default | cut -d " " -f 3)"
+
 NUM_PINGS=3
-ARRAY_OF_HOSTS=("google.com" "yahoo.com" "netflix.com") #
+ARRAY_OF_HOSTS=("$HOST" "google.com" "yahoo.com" "netflix.com") #
 PING_OUTPUT_FILE="outFile.txt"
 
 DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S');
@@ -28,25 +30,11 @@ do
 
 
     #1.find default gateway 
-    HOST="$(ip route | grep default | cut -d " " -f 3)"
-    # echo"x"
-    #echo "$DEF_GATE_WAY_STRING"
+    # HOST="$(ip route | grep default | cut -d " " -f 3)"
     
-    # HOST="$DEF_GATE_WAY_STRING"
-    # HOST="googsssssssle.com"
+    # ping -c 1 $HOST 
+    # SUCCESS=$?
     
-    #what does this (below) line of code mean?
-    #   #<some_preceeding_command>...1>/dev/null 2>/dev/null
-    # send std_error (2) to /dev/null
-    # send std_output(1) to /dev/nul
-    # a failed ping will only write to outfile if we pipe #2 as seen below
-    
-    ping -c 1 $HOST 1>>"$PING_OUTPUT_FILE" 2>>"$PING_OUTPUT_FILE"
-    SUCCESS=$?
-    
-    echo " " >> "$PING_OUTPUT_FILE"
-    echo "begining pings of hosts" >> "$PING_OUTPUT_FILE"
-    echo " " >> "$PING_OUTPUT_FILE"
     
     if [ $SUCCESS -eq 0 ]
     then
