@@ -1,15 +1,17 @@
-script starting at 28/10/2018 18:05:14
+script starting at 28/10/2018 13:57:21 PDT
 from this device:
 uid=1001(nettraff) gid=1001(nettraff) groups=1001(nettraff)
-Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
-            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
-            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
-            [-w deadline] [-W timeout] [hop1 ...] destination
-Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
-             [-l preload] [-m mark] [-M pmtudisc_option]
-             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
-             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
-             [-W timeout] destination
- 
-begining pings of hosts
- 
+10.0.1.1 , 10.0.1.1 , 0.368 , 28/10/2018 13:57:21 PDT  
+216.58.194.206 , google.com , 11.788 , 28/10/2018 13:57:23 PDT  
+98.137.246.8 , yahoo.com , 31.250 , 28/10/2018 13:57:25 PDT  
+104.31.94.59 , aline.com , 11.618 , 28/10/2018 13:57:28 PDT  
+64.28.108.203 , vatican.com , 56.181 , 28/10/2018 13:57:39 PDT  
+157.240.22.35 , facebook.com , 11.850 , 28/10/2018 13:57:41 PDT  
+216.58.194.193 , navycaptain-therealnavy.blogspot.com , 11.671 , 28/10/2018 13:57:43 PDT  
+10.0.1.1 , 10.0.1.1 , 0.367 , 28/10/2018 13:57:55 PDT  
+216.58.194.206 , google.com , 11.660 , 28/10/2018 13:57:57 PDT  
+98.137.246.8 , yahoo.com , 31.493 , 28/10/2018 13:57:59 PDT  
+104.31.94.59 , aline.com , 14.016 , 28/10/2018 13:58:01 PDT  
+64.28.108.203 , vatican.com , 55.668 , 28/10/2018 13:58:12 PDT  
+157.240.22.35 , facebook.com , 11.950 , 28/10/2018 13:58:14 PDT  
+216.58.194.193 , navycaptain-therealnavy.blogspot.com , 11.411 , 28/10/2018 13:58:16 PDT  
