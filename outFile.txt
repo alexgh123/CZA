@@ -1,6 +1,7 @@
 script starting at 28/10/2018 13:57:21 PDT
 from this device:
 uid=1001(nettraff) gid=1001(nettraff) groups=1001(nettraff)
+IP, url, avg_ping_time_ms, date_time
 10.0.1.1 , 10.0.1.1 , 0.368 , 28/10/2018 13:57:21 PDT  
 216.58.194.206 , google.com , 11.788 , 28/10/2018 13:57:23 PDT  
 98.137.246.8 , yahoo.com , 31.250 , 28/10/2018 13:57:25 PDT  
