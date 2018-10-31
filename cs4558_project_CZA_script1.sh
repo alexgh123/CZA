@@ -5,14 +5,18 @@
 # ip, avg_time of 5 pings, tod
 
 #ip, url, avg_time_of_NUM_PINGS, tod
+HUMAN_HOST="A"
 
 HOST="$(ip route | grep default | cut -d " " -f 3)"
-
 NUM_PINGS=3
 ARRAY_OF_HOSTS=("$HOST" "google.com" "yahoo.com" "aline.com" "vatican.com" "facebook.com" "navycaptain-therealnavy.blogspot.com" ) #
-PING_OUTPUT_FILE="outFile.txt"
 
 DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S %Z');
+DATE=$(date '+%Y%m%d');
+
+PING_OUTPUT_FILE="${DATE}_${HUMAN_HOST}_outFile.txt"
+
+
 echo "script starting at $DATE_TIME"> "$PING_OUTPUT_FILE"
 echo "from this device:" >> "$PING_OUTPUT_FILE"
 id >> "$PING_OUTPUT_FILE"
