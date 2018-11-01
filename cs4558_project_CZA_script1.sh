@@ -5,10 +5,8 @@
 #ip, url, avg_time_of_NUM_PINGS, tod
 
 HUMAN_HOST="A"
-SCRIPT_NAME="$0"
 
-DATE_TEST=""
-DATE=$(date '+%Y%m%d');
+DATE=""
 
 #ALEX version: 
 HOST="$(route get default | grep gateway | cut -d':' -f 2)"
@@ -24,19 +22,19 @@ do
     CURRENT_DATE=$(date '+%Y%m%d');
     CURRENT_DATE_TEST=$(date '+%Y%m%d_%H:%M');
 
-    if [ "$DATE_TEST" != "$CURRENT_DATE_TEST" ]; then
+    echo "comparison:"
+    echo "$DATE"
+    echo "$CURRENT_DATE"
+    echo " "
+    
+    if [ "$DATE" != "$CURRENT_DATE" ]; then
 
-        echo "comparison:"
-        echo "$DATE_TEST"
-        echo "$CURRENT_DATE_TEST"
-        echo " "
         
-        echo "creating a new file!!!"
-        echo "updating date paramaters"
+        #echo "creating a new file!!!"
+        #echo "updating date paramaters"
 
         DATE=$(date '+%Y%m%d');
-        DATE_TEST=$(date '+%Y%m%d_%H:%M');
-        PING_OUTPUT_FILE="${DATE_TEST}_${HUMAN_HOST}_outFile.txt"
+        PING_OUTPUT_FILE="${DATE}_${HUMAN_HOST}_outFile.txt"
         echo "filename:"
         echo "$PING_OUTPUT_FILE"
 
