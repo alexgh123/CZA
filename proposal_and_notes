@@ -1,6 +1,19 @@
 
+1.1  automate data collection to send to github
+	- file names per day
+	- re start script
+	
+2.   set up rasbery PIs
+3.   set up data analysis pipelines
+4.   hammer out what questions we want answered from data
+5.
+
+DONE 1. email beverly
+
+
 
 next steps:
+	traceroute
 	buy rasbery PI
 	DONE - format output
 	add sites that are on/off CDN

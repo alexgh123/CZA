@@ -1,37 +1,55 @@
 #!/bin/bash
 
 
-# fields:
-# ip, avg_time of 5 pings, tod
-
+# fields of output file:
 #ip, url, avg_time_of_NUM_PINGS, tod
-HUMAN_HOST="A"
 
-HOST="$(ip route | grep default | cut -d " " -f 3)"
+HUMAN_HOST="A"
+SCRIPT_NAME="$0"
+
+DATE_TEST=""
+DATE=$(date '+%Y%m%d');
+
+#ALEX version: 
+HOST="$(route get default | grep gateway | cut -d':' -f 2)"
+#zaki pi version:
+#HOST="$(ip route | grep default | cut -d " " -f 3)"
+
 NUM_PINGS=3
 ARRAY_OF_HOSTS=("$HOST" "google.com" "yahoo.com" "aline.com" "vatican.com" "facebook.com" "navycaptain-therealnavy.blogspot.com" ) #
 
-DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S %Z');
-DATE=$(date '+%Y%m%d');
-
-PING_OUTPUT_FILE="${DATE}_${HUMAN_HOST}_outFile.txt"
-
-
-echo "script starting at $DATE_TIME"> "$PING_OUTPUT_FILE"
-echo "from this device:" >> "$PING_OUTPUT_FILE"
-id >> "$PING_OUTPUT_FILE"
-
-#specs:
-	#desired output:
-		# 1. send several pings
-		# 1.1 results from pings
-		# 2. need a timestamp
-
-
 while(true)
 do
+    #check if new day in which case we restart script to create new file name
+    CURRENT_DATE=$(date '+%Y%m%d');
+    CURRENT_DATE_TEST=$(date '+%Y%m%d_%H:%M');
+
+    if [ "$DATE_TEST" != "$CURRENT_DATE_TEST" ]; then
+
+        echo "comparison:"
+        echo "$DATE_TEST"
+        echo "$CURRENT_DATE_TEST"
+        echo " "
+        
+        echo "creating a new file!!!"
+        echo "updating date paramaters"
+
+        DATE=$(date '+%Y%m%d');
+        DATE_TEST=$(date '+%Y%m%d_%H:%M');
+        PING_OUTPUT_FILE="${DATE_TEST}_${HUMAN_HOST}_outFile.txt"
+        echo "filename:"
+        echo "$PING_OUTPUT_FILE"
+
+        DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S %Z');
+        echo "script starting at $DATE_TIME"> "$PING_OUTPUT_FILE"
+            
+        echo "from this device:" >> "$PING_OUTPUT_FILE"
+        id >> "$PING_OUTPUT_FILE"
+
+    fi
+
     
-   SUCCESS=0 
+    SUCCESS=0 
     if [ $SUCCESS -eq 0 ]
     then
         echo "$HOST has replied, proceeding to ping list of hosts"
@@ -72,6 +90,8 @@ do
 
     #sleep
     sleep 10 #seconds
+
+
 done
 
 #EOF
