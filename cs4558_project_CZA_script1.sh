@@ -20,7 +20,7 @@ while(true)
 do
     #check if new day in which case we restart script to create new file name
     CURRENT_DATE=$(date '+%Y%m%d');
-    CURRENT_DATE_TEST=$(date '+%Y%m%d_%H:%M');
+    # CURRENT_DATE_TEST=$(date '+%Y%m%d_%H:%M');
 
     echo "comparison:"
     echo "$DATE"
@@ -28,14 +28,13 @@ do
     echo " "
     
     if [ "$DATE" != "$CURRENT_DATE" ]; then
-
-        
         #echo "creating a new file!!!"
         #echo "updating date paramaters"
 
         DATE=$(date '+%Y%m%d');
+        # DATE_TEST=$(date '+%Y%m%d_%H:%M');
         PING_OUTPUT_FILE="${DATE}_${HUMAN_HOST}_outFile.txt"
-        echo "filename:"
+        echo "new filename:"
         echo "$PING_OUTPUT_FILE"
 
         DATE_TIME=$(date '+%d/%m/%Y %H:%M:%S %Z');
