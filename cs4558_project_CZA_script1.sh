@@ -4,7 +4,7 @@
 # fields of output file:
 #ip, url, avg_time_of_NUM_PINGS, tod
 
-HUMAN_HOST="A"
+HUMAN_HOST="Z"
 
 DATE=""
 
