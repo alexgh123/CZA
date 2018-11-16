@@ -1,3 +1,9 @@
+script starting at 04/11/2018 22:34:01 UTC
+from this device:
+uid=0(root) gid=0(root) groups=0(root)
+10.0.1.1 , 10.0.1.1 , 1.380 , 04/11/2018 22:34:01 UTC  
+172.217.0.46 , google.com , 21.503 , 04/11/2018 22:34:04 UTC  
+98.137.246.7 , yahoo.com , 32.672 , 04/11/2018 22:34:06 UTC  
 script starting at 04/11/2018 00:00:00 PDT
 from this device:
 uid=1000(pi) gid=1000(pi) groups=1000(pi),4(adm),20(dialout),24(cdrom),27(sudo),29(audio),44(video),46(plugdev),60(games),100(users),101(input),108(netdev),997(gpio),998(i2c),999(spi)
@@ -13321,3 +13327,7 @@ uid=1000(pi) gid=1000(pi) groups=1000(pi),4(adm),20(dialout),24(cdrom),27(sudo),
 64.28.108.203 , vatican.com , 66.470 , 04/11/2018 23:59:54 PST  
 157.240.22.35 , facebook.com , 14.336 , 04/11/2018 23:59:56 PST  
 216.58.194.161 , navycaptain-therealnavy.blogspot.com , 13.091 , 04/11/2018 23:59:58 PST  
+<<<<<<< HEAD
+>>>>>>> 4aa2599f84c91d29350d2991a9a3280d151b0b3b
+=======
+>>>>>>> 4aa2599f84c91d29350d2991a9a3280d151b0b3b

@@ -1,0 +1,550 @@
+script starting at 10/11/2018 18:05:57 UTC
+from this device:
+uid=1001(nettraff) gid=1001(nettraff) groups=1001(nettraff),4(adm),20(dialout),24(cdrom),27(sudo),29(audio),44(video),46(plugdev),60(games),100(users),101(input),108(netdev),997(gpio),998(i2c),999(spi),1000(pi)
+10.0.0.1 , 10.0.0.1 , 1.090 , 10/11/2018 18:05:57 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 15.808 , 10/11/2018 18:06:00 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.379 , 10/11/2018 18:06:02 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 15.320 , 10/11/2018 18:06:04 UTC  
+64.28.108.203 , vatican.com , 58.299 , 10/11/2018 18:06:06 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 15.449 , 10/11/2018 18:06:08 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 12.889 , 10/11/2018 18:06:10 UTC  
+10.0.0.1 , 10.0.0.1 , 1.346 , 10/11/2018 18:06:22 UTC  
+nuq04s29-in-x0e.1e100.net (2607:f8b0:4005:801::200e , google.com , 13.029 , 10/11/2018 18:06:24 UTC  
+media-router-fp1.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::10 , yahoo.com , 87.386 , 10/11/2018 18:06:26 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 14.629 , 10/11/2018 18:06:28 UTC  
+64.28.108.203 , vatican.com , 58.880 , 10/11/2018 18:06:31 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.073 , 10/11/2018 18:06:33 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 14.715 , 10/11/2018 18:06:35 UTC  
+10.0.0.1 , 10.0.0.1 , 1.009 , 10/11/2018 18:06:47 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.158 , 10/11/2018 18:06:49 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 81.193 , 10/11/2018 18:06:51 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 14.458 , 10/11/2018 18:06:53 UTC  
+64.28.108.203 , vatican.com , 61.998 , 10/11/2018 18:06:55 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 14.414 , 10/11/2018 18:06:58 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 13.561 , 10/11/2018 18:07:00 UTC  
+10.0.0.1 , 10.0.0.1 , 0.806 , 10/11/2018 18:07:12 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 15.155 , 10/11/2018 18:07:14 UTC  
+media-router-fp1.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::3 , yahoo.com , 61.313 , 10/11/2018 18:07:16 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.552 , 10/11/2018 18:07:18 UTC  
+64.28.108.203 , vatican.com , 58.489 , 10/11/2018 18:07:20 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 14.969 , 10/11/2018 18:07:22 UTC  
+lax17s05-in-x01.1e100.net (2607:f8b0:4007:808::2001 , navycaptain-therealnavy.blogspot.com , 19.868 , 10/11/2018 18:07:24 UTC  
+10.0.0.1 , 10.0.0.1 , 0.902 , 10/11/2018 18:07:37 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.481 , 10/11/2018 18:07:39 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 33.379 , 10/11/2018 18:07:41 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 14.016 , 10/11/2018 18:07:43 UTC  
+64.28.108.203 , vatican.com , 57.796 , 10/11/2018 18:07:45 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 14.552 , 10/11/2018 18:07:47 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 13.480 , 10/11/2018 18:07:49 UTC  
+10.0.0.1 , 10.0.0.1 , 1.878 , 10/11/2018 18:08:01 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 14.798 , 10/11/2018 18:08:03 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 82.854 , 10/11/2018 18:08:05 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.846 , 10/11/2018 18:08:08 UTC  
+64.28.108.203 , vatican.com , 59.339 , 10/11/2018 18:08:10 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 14.691 , 10/11/2018 18:08:12 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 12.700 , 10/11/2018 18:08:14 UTC  
+10.0.0.1 , 10.0.0.1 , 1.010 , 10/11/2018 18:08:26 UTC  
+sfo03s01-in-x0e.1e100.net (2607:f8b0:4005:805::200e , google.com , 17.885 , 10/11/2018 18:08:28 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 83.560 , 10/11/2018 18:08:30 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 14.105 , 10/11/2018 18:08:32 UTC  
+64.28.108.203 , vatican.com , 59.015 , 10/11/2018 18:08:34 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 14.319 , 10/11/2018 18:08:36 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 16.231 , 10/11/2018 18:08:39 UTC  
+10.0.0.1 , 10.0.0.1 , 1.123 , 10/11/2018 18:08:51 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 15.440 , 10/11/2018 18:08:53 UTC  
+media-router-fp1.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::10 , yahoo.com , 87.775 , 10/11/2018 18:08:55 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 15.101 , 10/11/2018 18:08:57 UTC  
+64.28.108.203 , vatican.com , 59.985 , 10/11/2018 18:08:59 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.480 , 10/11/2018 18:09:01 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 14.992 , 10/11/2018 18:09:03 UTC  
+10.0.0.1 , 10.0.0.1 , 0.960 , 10/11/2018 18:09:15 UTC  
+sfo03s01-in-x0e.1e100.net (2607:f8b0:4005:805::200e , google.com , 13.287 , 10/11/2018 18:09:17 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 35.021 , 10/11/2018 18:09:20 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 17.937 , 10/11/2018 18:09:22 UTC  
+64.28.108.203 , vatican.com , 60.282 , 10/11/2018 18:09:24 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 15.868 , 10/11/2018 18:09:26 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 12.976 , 10/11/2018 18:09:28 UTC  
+10.0.0.1 , 10.0.0.1 , 1.047 , 10/11/2018 18:09:40 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.484 , 10/11/2018 18:09:42 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 34.396 , 10/11/2018 18:09:44 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 14.434 , 10/11/2018 18:09:46 UTC  
+64.28.108.203 , vatican.com , 59.426 , 10/11/2018 18:09:48 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.619 , 10/11/2018 18:09:51 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 13.425 , 10/11/2018 18:09:53 UTC  
+10.0.0.1 , 10.0.0.1 , 0.993 , 10/11/2018 18:10:05 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.744 , 10/11/2018 18:10:07 UTC  
+media-router-fp1.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::3 , yahoo.com , 64.271 , 10/11/2018 18:10:09 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 14.645 , 10/11/2018 18:10:11 UTC  
+64.28.108.203 , vatican.com , 59.109 , 10/11/2018 18:10:13 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 15.391 , 10/11/2018 18:10:15 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 14.937 , 10/11/2018 18:10:17 UTC  
+10.0.0.1 , 10.0.0.1 , 1.061 , 10/11/2018 18:10:30 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 15.874 , 10/11/2018 18:10:32 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 82.073 , 10/11/2018 18:10:34 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.575 , 10/11/2018 18:10:36 UTC  
+64.28.108.203 , vatican.com , 58.766 , 10/11/2018 18:10:38 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 17.763 , 10/11/2018 18:10:40 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 13.891 , 10/11/2018 18:10:42 UTC  
+10.0.0.1 , 10.0.0.1 , 1.122 , 10/11/2018 18:10:54 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 14.708 , 10/11/2018 18:10:56 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 82.221 , 10/11/2018 18:10:59 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.985 , 10/11/2018 18:11:01 UTC  
+64.28.108.203 , vatican.com , 58.960 , 10/11/2018 18:11:03 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.529 , 10/11/2018 18:11:05 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 12.685 , 10/11/2018 18:11:07 UTC  
+10.0.0.1 , 10.0.0.1 , 0.876 , 10/11/2018 18:11:19 UTC  
+nuq04s29-in-x0e.1e100.net (2607:f8b0:4005:801::200e , google.com , 13.399 , 10/11/2018 18:11:21 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.789 , 10/11/2018 18:11:23 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.326 , 10/11/2018 18:11:25 UTC  
+64.28.108.203 , vatican.com , 58.244 , 10/11/2018 18:11:28 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.657 , 10/11/2018 18:11:30 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.039 , 10/11/2018 18:11:32 UTC  
+10.0.0.1 , 10.0.0.1 , 0.781 , 10/11/2018 18:11:44 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.830 , 10/11/2018 18:11:46 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 33.288 , 10/11/2018 18:11:48 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 14.669 , 10/11/2018 18:11:50 UTC  
+64.28.108.203 , vatican.com , 58.706 , 10/11/2018 18:11:52 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 15.913 , 10/11/2018 18:11:54 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 13.874 , 10/11/2018 18:11:57 UTC  
+10.0.0.1 , 10.0.0.1 , 1.203 , 10/11/2018 18:12:09 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.959 , 10/11/2018 18:12:11 UTC  
+media-router-fp1.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::3 , yahoo.com , 61.234 , 10/11/2018 18:12:13 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.002 , 10/11/2018 18:12:15 UTC  
+64.28.108.203 , vatican.com , 58.193 , 10/11/2018 18:12:17 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 15.715 , 10/11/2018 18:12:19 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 13.810 , 10/11/2018 18:12:21 UTC  
+10.0.0.1 , 10.0.0.1 , 1.471 , 10/11/2018 18:12:33 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.604 , 10/11/2018 18:12:35 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.599 , 10/11/2018 18:12:37 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.704 , 10/11/2018 18:12:40 UTC  
+64.28.108.203 , vatican.com , 58.722 , 10/11/2018 18:12:42 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.761 , 10/11/2018 18:12:44 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.119 , 10/11/2018 18:12:46 UTC  
+10.0.0.1 , 10.0.0.1 , 1.642 , 10/11/2018 18:12:58 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.611 , 10/11/2018 18:13:00 UTC  
+media-router-fp1.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::10 , yahoo.com , 86.498 , 10/11/2018 18:13:02 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.404 , 10/11/2018 18:13:04 UTC  
+64.28.108.203 , vatican.com , 60.157 , 10/11/2018 18:13:06 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.525 , 10/11/2018 18:13:09 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 15.189 , 10/11/2018 18:13:11 UTC  
+10.0.0.1 , 10.0.0.1 , 1.448 , 10/11/2018 18:13:23 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.076 , 10/11/2018 18:13:25 UTC  
+media-router-fp1.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::3 , yahoo.com , 60.804 , 10/11/2018 18:13:27 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.773 , 10/11/2018 18:13:29 UTC  
+64.28.108.203 , vatican.com , 58.407 , 10/11/2018 18:13:31 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.278 , 10/11/2018 18:13:33 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.074 , 10/11/2018 18:13:35 UTC  
+10.0.0.1 , 10.0.0.1 , 1.101 , 10/11/2018 18:13:48 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.035 , 10/11/2018 18:13:50 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 35.090 , 10/11/2018 18:13:52 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.758 , 10/11/2018 18:13:54 UTC  
+64.28.108.203 , vatican.com , 58.600 , 10/11/2018 18:13:56 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.375 , 10/11/2018 18:13:58 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 12.834 , 10/11/2018 18:14:00 UTC  
+10.0.0.1 , 10.0.0.1 , 1.083 , 10/11/2018 18:14:12 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.550 , 10/11/2018 18:14:14 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 35.405 , 10/11/2018 18:14:16 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.229 , 10/11/2018 18:14:18 UTC  
+64.28.108.203 , vatican.com , 58.345 , 10/11/2018 18:14:21 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.110 , 10/11/2018 18:14:23 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 13.387 , 10/11/2018 18:14:25 UTC  
+10.0.0.1 , 10.0.0.1 , 1.337 , 10/11/2018 18:14:37 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.955 , 10/11/2018 18:14:39 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.037 , 10/11/2018 18:14:41 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.710 , 10/11/2018 18:14:43 UTC  
+64.28.108.203 , vatican.com , 57.864 , 10/11/2018 18:14:45 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.088 , 10/11/2018 18:14:47 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.726 , 10/11/2018 18:14:50 UTC  
+10.0.0.1 , 10.0.0.1 , 0.710 , 10/11/2018 18:15:02 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.891 , 10/11/2018 18:15:04 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 32.799 , 10/11/2018 18:15:06 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.462 , 10/11/2018 18:15:08 UTC  
+64.28.108.203 , vatican.com , 57.439 , 10/11/2018 18:15:10 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 12.785 , 10/11/2018 18:15:12 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 12.072 , 10/11/2018 18:15:14 UTC  
+10.0.0.1 , 10.0.0.1 , 1.581 , 10/11/2018 18:15:26 UTC  
+sfo03s01-in-x0e.1e100.net (2607:f8b0:4005:805::200e , google.com , 13.334 , 10/11/2018 18:15:28 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 34.358 , 10/11/2018 18:15:31 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.527 , 10/11/2018 18:15:33 UTC  
+64.28.108.203 , vatican.com , 58.290 , 10/11/2018 18:15:35 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.480 , 10/11/2018 18:15:37 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.059 , 10/11/2018 18:15:39 UTC  
+10.0.0.1 , 10.0.0.1 , 1.525 , 10/11/2018 18:15:51 UTC  
+sfo03s06-in-x0e.1e100.net (2607:f8b0:4005:806::200e , google.com , 13.845 , 10/11/2018 18:15:53 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 33.083 , 10/11/2018 18:15:55 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.354 , 10/11/2018 18:15:57 UTC  
+64.28.108.203 , vatican.com , 58.452 , 10/11/2018 18:15:59 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.493 , 10/11/2018 18:16:02 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.327 , 10/11/2018 18:16:04 UTC  
+10.0.0.1 , 10.0.0.1 , 1.079 , 10/11/2018 18:16:16 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.765 , 10/11/2018 18:16:18 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 32.924 , 10/11/2018 18:16:20 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.758 , 10/11/2018 18:16:22 UTC  
+64.28.108.203 , vatican.com , 57.995 , 10/11/2018 18:16:24 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.244 , 10/11/2018 18:16:26 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.110 , 10/11/2018 18:16:28 UTC  
+10.0.0.1 , 10.0.0.1 , 1.465 , 10/11/2018 18:16:40 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.846 , 10/11/2018 18:16:43 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 33.253 , 10/11/2018 18:16:45 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.764 , 10/11/2018 18:16:47 UTC  
+64.28.108.203 , vatican.com , 58.940 , 10/11/2018 18:16:49 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.925 , 10/11/2018 18:16:51 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.719 , 10/11/2018 18:16:53 UTC  
+10.0.0.1 , 10.0.0.1 , 1.303 , 10/11/2018 18:17:05 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.322 , 10/11/2018 18:17:07 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 33.444 , 10/11/2018 18:17:09 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.444 , 10/11/2018 18:17:11 UTC  
+64.28.108.203 , vatican.com , 58.292 , 10/11/2018 18:17:14 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.017 , 10/11/2018 18:17:16 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.434 , 10/11/2018 18:17:18 UTC  
+10.0.0.1 , 10.0.0.1 , 1.141 , 10/11/2018 18:17:30 UTC  
+sfo03s06-in-x0e.1e100.net (2607:f8b0:4005:806::200e , google.com , 13.554 , 10/11/2018 18:17:32 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.103 , 10/11/2018 18:17:34 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.736 , 10/11/2018 18:17:36 UTC  
+64.28.108.203 , vatican.com , 58.720 , 10/11/2018 18:17:38 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.828 , 10/11/2018 18:17:40 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 12.947 , 10/11/2018 18:17:42 UTC  
+10.0.0.1 , 10.0.0.1 , 1.035 , 10/11/2018 18:17:55 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.144 , 10/11/2018 18:17:57 UTC  
+media-router-fp1.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::3 , yahoo.com , 61.230 , 10/11/2018 18:17:59 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.120 , 10/11/2018 18:18:01 UTC  
+64.28.108.203 , vatican.com , 58.458 , 10/11/2018 18:18:03 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 12.958 , 10/11/2018 18:18:05 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 12.994 , 10/11/2018 18:18:07 UTC  
+10.0.0.1 , 10.0.0.1 , 0.900 , 10/11/2018 18:18:19 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.400 , 10/11/2018 18:18:21 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 81.497 , 10/11/2018 18:18:23 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.163 , 10/11/2018 18:18:26 UTC  
+64.28.108.203 , vatican.com , 58.320 , 10/11/2018 18:18:28 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.553 , 10/11/2018 18:18:30 UTC  
+sfo03s06-in-x01.1e100.net (2607:f8b0:4005:806::2001 , navycaptain-therealnavy.blogspot.com , 13.644 , 10/11/2018 18:18:32 UTC  
+10.0.0.1 , 10.0.0.1 , 1.182 , 10/11/2018 18:18:44 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.829 , 10/11/2018 18:18:46 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 34.238 , 10/11/2018 18:18:48 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.503 , 10/11/2018 18:18:50 UTC  
+64.28.108.203 , vatican.com , 58.502 , 10/11/2018 18:18:52 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.959 , 10/11/2018 18:18:55 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.479 , 10/11/2018 18:18:57 UTC  
+10.0.0.1 , 10.0.0.1 , 1.256 , 10/11/2018 18:19:09 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.741 , 10/11/2018 18:19:11 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 81.101 , 10/11/2018 18:19:13 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.276 , 10/11/2018 18:19:15 UTC  
+64.28.108.203 , vatican.com , 58.604 , 10/11/2018 18:19:17 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.834 , 10/11/2018 18:19:19 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 13.593 , 10/11/2018 18:19:21 UTC  
+10.0.0.1 , 10.0.0.1 , 1.322 , 10/11/2018 18:19:34 UTC  
+sfo03s01-in-x0e.1e100.net (2607:f8b0:4005:805::200e , google.com , 12.887 , 10/11/2018 18:19:36 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 80.957 , 10/11/2018 18:19:38 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.149 , 10/11/2018 18:19:40 UTC  
+64.28.108.203 , vatican.com , 58.156 , 10/11/2018 18:19:42 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.491 , 10/11/2018 18:19:44 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 12.817 , 10/11/2018 18:19:46 UTC  
+10.0.0.1 , 10.0.0.1 , 0.866 , 10/11/2018 18:19:58 UTC  
+nuq04s29-in-x0e.1e100.net (2607:f8b0:4005:801::200e , google.com , 13.772 , 10/11/2018 18:20:00 UTC  
+media-router-fp1.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::10 , yahoo.com , 86.478 , 10/11/2018 18:20:02 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.208 , 10/11/2018 18:20:05 UTC  
+64.28.108.203 , vatican.com , 58.272 , 10/11/2018 18:20:07 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.388 , 10/11/2018 18:20:09 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.285 , 10/11/2018 18:20:11 UTC  
+10.0.0.1 , 10.0.0.1 , 1.012 , 10/11/2018 18:20:23 UTC  
+nuq04s29-in-x0e.1e100.net (2607:f8b0:4005:801::200e , google.com , 12.926 , 10/11/2018 18:20:25 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 33.321 , 10/11/2018 18:20:27 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.144 , 10/11/2018 18:20:29 UTC  
+64.28.108.203 , vatican.com , 58.035 , 10/11/2018 18:20:31 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.840 , 10/11/2018 18:20:34 UTC  
+sfo03s06-in-x01.1e100.net (2607:f8b0:4005:806::2001 , navycaptain-therealnavy.blogspot.com , 13.270 , 10/11/2018 18:20:36 UTC  
+10.0.0.1 , 10.0.0.1 , 1.068 , 10/11/2018 18:20:48 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.980 , 10/11/2018 18:20:50 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 32.962 , 10/11/2018 18:20:52 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.208 , 10/11/2018 18:20:54 UTC  
+64.28.108.203 , vatican.com , 58.968 , 10/11/2018 18:20:56 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 15.385 , 10/11/2018 18:20:58 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.594 , 10/11/2018 18:21:00 UTC  
+10.0.0.1 , 10.0.0.1 , 1.212 , 10/11/2018 18:21:12 UTC  
+nuq04s29-in-x0e.1e100.net (2607:f8b0:4005:801::200e , google.com , 14.296 , 10/11/2018 18:21:15 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 33.799 , 10/11/2018 18:21:17 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.544 , 10/11/2018 18:21:19 UTC  
+64.28.108.203 , vatican.com , 58.481 , 10/11/2018 18:21:21 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.530 , 10/11/2018 18:21:23 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.248 , 10/11/2018 18:21:25 UTC  
+10.0.0.1 , 10.0.0.1 , 1.319 , 10/11/2018 18:21:37 UTC  
+lax02s22-in-x0e.1e100.net (2607:f8b0:4007:80a::200e , google.com , 19.221 , 10/11/2018 18:21:39 UTC  
+media-router-fp1.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::3 , yahoo.com , 61.619 , 10/11/2018 18:21:41 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 14.200 , 10/11/2018 18:21:43 UTC  
+64.28.108.203 , vatican.com , 58.799 , 10/11/2018 18:21:46 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 15.455 , 10/11/2018 18:21:48 UTC  
+sfo03s06-in-x01.1e100.net (2607:f8b0:4005:806::2001 , navycaptain-therealnavy.blogspot.com , 13.683 , 10/11/2018 18:21:50 UTC  
+10.0.0.1 , 10.0.0.1 , 1.347 , 10/11/2018 18:22:02 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 12.793 , 10/11/2018 18:22:04 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 33.196 , 10/11/2018 18:22:06 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.765 , 10/11/2018 18:22:08 UTC  
+64.28.108.203 , vatican.com , 58.666 , 10/11/2018 18:22:10 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.639 , 10/11/2018 18:22:12 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.580 , 10/11/2018 18:22:14 UTC  
+10.0.0.1 , 10.0.0.1 , 1.368 , 10/11/2018 18:22:27 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.032 , 10/11/2018 18:22:29 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.611 , 10/11/2018 18:22:31 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.788 , 10/11/2018 18:22:33 UTC  
+64.28.108.203 , vatican.com , 58.387 , 10/11/2018 18:22:35 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.236 , 10/11/2018 18:22:37 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.426 , 10/11/2018 18:22:39 UTC  
+10.0.0.1 , 10.0.0.1 , 0.857 , 10/11/2018 18:22:51 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.964 , 10/11/2018 18:22:53 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 33.209 , 10/11/2018 18:22:55 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.604 , 10/11/2018 18:22:58 UTC  
+64.28.108.203 , vatican.com , 58.935 , 10/11/2018 18:23:00 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.071 , 10/11/2018 18:23:02 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 12.812 , 10/11/2018 18:23:04 UTC  
+10.0.0.1 , 10.0.0.1 , 1.216 , 10/11/2018 18:23:16 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.469 , 10/11/2018 18:23:18 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 32.969 , 10/11/2018 18:23:20 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.082 , 10/11/2018 18:23:22 UTC  
+64.28.108.203 , vatican.com , 59.118 , 10/11/2018 18:23:24 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.298 , 10/11/2018 18:23:26 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.221 , 10/11/2018 18:23:29 UTC  
+10.0.0.1 , 10.0.0.1 , 1.198 , 10/11/2018 18:23:41 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.678 , 10/11/2018 18:23:43 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 35.293 , 10/11/2018 18:23:45 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 12.939 , 10/11/2018 18:23:47 UTC  
+64.28.108.203 , vatican.com , 58.166 , 10/11/2018 18:23:49 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.803 , 10/11/2018 18:23:51 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 12.862 , 10/11/2018 18:23:53 UTC  
+10.0.0.1 , 10.0.0.1 , 0.926 , 10/11/2018 18:24:05 UTC  
+nuq04s29-in-x0e.1e100.net (2607:f8b0:4005:801::200e , google.com , 13.282 , 10/11/2018 18:24:07 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 81.138 , 10/11/2018 18:24:10 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.355 , 10/11/2018 18:24:12 UTC  
+64.28.108.203 , vatican.com , 58.638 , 10/11/2018 18:24:14 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 15.494 , 10/11/2018 18:24:16 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.435 , 10/11/2018 18:24:18 UTC  
+10.0.0.1 , 10.0.0.1 , 0.822 , 10/11/2018 18:24:30 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.001 , 10/11/2018 18:24:32 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 33.254 , 10/11/2018 18:24:34 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.665 , 10/11/2018 18:24:36 UTC  
+64.28.108.203 , vatican.com , 58.160 , 10/11/2018 18:24:39 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.542 , 10/11/2018 18:24:41 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 12.652 , 10/11/2018 18:24:43 UTC  
+10.0.0.1 , 10.0.0.1 , 1.262 , 10/11/2018 18:24:55 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.526 , 10/11/2018 18:24:57 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.342 , 10/11/2018 18:24:59 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.401 , 10/11/2018 18:25:01 UTC  
+64.28.108.203 , vatican.com , 58.075 , 10/11/2018 18:25:03 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.066 , 10/11/2018 18:25:05 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 13.277 , 10/11/2018 18:25:08 UTC  
+10.0.0.1 , 10.0.0.1 , 1.147 , 10/11/2018 18:25:20 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.442 , 10/11/2018 18:25:22 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 33.206 , 10/11/2018 18:25:24 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.962 , 10/11/2018 18:25:26 UTC  
+64.28.108.203 , vatican.com , 58.629 , 10/11/2018 18:25:28 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.385 , 10/11/2018 18:25:30 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 13.425 , 10/11/2018 18:25:32 UTC  
+10.0.0.1 , 10.0.0.1 , 1.245 , 10/11/2018 18:25:44 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.891 , 10/11/2018 18:25:46 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.997 , 10/11/2018 18:25:48 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.711 , 10/11/2018 18:25:51 UTC  
+64.28.108.203 , vatican.com , 58.526 , 10/11/2018 18:25:53 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.019 , 10/11/2018 18:25:55 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 13.451 , 10/11/2018 18:25:57 UTC  
+10.0.0.1 , 10.0.0.1 , 1.449 , 10/11/2018 18:26:09 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.556 , 10/11/2018 18:26:11 UTC  
+media-router-fp1.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::10 , yahoo.com , 86.665 , 10/11/2018 18:26:13 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.508 , 10/11/2018 18:26:15 UTC  
+64.28.108.203 , vatican.com , 59.166 , 10/11/2018 18:26:17 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.639 , 10/11/2018 18:26:20 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 14.112 , 10/11/2018 18:26:22 UTC  
+10.0.0.1 , 10.0.0.1 , 0.978 , 10/11/2018 18:26:34 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.148 , 10/11/2018 18:26:36 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 32.650 , 10/11/2018 18:26:38 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.199 , 10/11/2018 18:26:40 UTC  
+64.28.108.203 , vatican.com , 58.060 , 10/11/2018 18:26:42 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.358 , 10/11/2018 18:26:44 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.543 , 10/11/2018 18:26:46 UTC  
+10.0.0.1 , 10.0.0.1 , 1.349 , 10/11/2018 18:26:58 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.136 , 10/11/2018 18:27:01 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 33.936 , 10/11/2018 18:27:03 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.250 , 10/11/2018 18:27:05 UTC  
+64.28.108.203 , vatican.com , 58.525 , 10/11/2018 18:27:07 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.989 , 10/11/2018 18:27:09 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 13.397 , 10/11/2018 18:27:11 UTC  
+10.0.0.1 , 10.0.0.1 , 1.067 , 10/11/2018 18:27:23 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.246 , 10/11/2018 18:27:25 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.458 , 10/11/2018 18:27:27 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.544 , 10/11/2018 18:27:30 UTC  
+64.28.108.203 , vatican.com , 58.468 , 10/11/2018 18:27:32 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.931 , 10/11/2018 18:27:34 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.270 , 10/11/2018 18:27:36 UTC  
+10.0.0.1 , 10.0.0.1 , 1.668 , 10/11/2018 18:27:48 UTC  
+sfo03s01-in-x0e.1e100.net (2607:f8b0:4005:805::200e , google.com , 13.556 , 10/11/2018 18:27:50 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 33.053 , 10/11/2018 18:27:52 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.632 , 10/11/2018 18:27:54 UTC  
+64.28.108.203 , vatican.com , 58.728 , 10/11/2018 18:27:56 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.579 , 10/11/2018 18:27:58 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 13.193 , 10/11/2018 18:28:01 UTC  
+10.0.0.1 , 10.0.0.1 , 1.320 , 10/11/2018 18:28:13 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.788 , 10/11/2018 18:28:15 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.694 , 10/11/2018 18:28:17 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.833 , 10/11/2018 18:28:19 UTC  
+64.28.108.203 , vatican.com , 57.968 , 10/11/2018 18:28:21 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.450 , 10/11/2018 18:28:23 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.529 , 10/11/2018 18:28:25 UTC  
+10.0.0.1 , 10.0.0.1 , 1.511 , 10/11/2018 18:28:37 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.143 , 10/11/2018 18:28:39 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.873 , 10/11/2018 18:28:42 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.898 , 10/11/2018 18:28:44 UTC  
+64.28.108.203 , vatican.com , 58.548 , 10/11/2018 18:28:46 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.283 , 10/11/2018 18:28:48 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 14.487 , 10/11/2018 18:28:50 UTC  
+10.0.0.1 , 10.0.0.1 , 0.883 , 10/11/2018 18:29:02 UTC  
+nuq04s29-in-x0e.1e100.net (2607:f8b0:4005:801::200e , google.com , 13.326 , 10/11/2018 18:29:04 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.577 , 10/11/2018 18:29:06 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.715 , 10/11/2018 18:29:08 UTC  
+64.28.108.203 , vatican.com , 58.379 , 10/11/2018 18:29:11 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 12.889 , 10/11/2018 18:29:13 UTC  
+sfo03s01-in-x01.1e100.net (2607:f8b0:4005:805::2001 , navycaptain-therealnavy.blogspot.com , 13.132 , 10/11/2018 18:29:15 UTC  
+10.0.0.1 , 10.0.0.1 , 1.463 , 10/11/2018 18:29:27 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.068 , 10/11/2018 18:29:29 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 81.758 , 10/11/2018 18:29:31 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.059 , 10/11/2018 18:29:33 UTC  
+64.28.108.203 , vatican.com , 58.024 , 10/11/2018 18:29:35 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.977 , 10/11/2018 18:29:37 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 12.910 , 10/11/2018 18:29:40 UTC  
+10.0.0.1 , 10.0.0.1 , 1.177 , 10/11/2018 18:29:52 UTC  
+sfo03s06-in-x0e.1e100.net (2607:f8b0:4005:806::200e , google.com , 12.960 , 10/11/2018 18:29:54 UTC  
+media-router-fp1.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::3 , yahoo.com , 61.841 , 10/11/2018 18:29:56 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.135 , 10/11/2018 18:29:58 UTC  
+64.28.108.203 , vatican.com , 58.086 , 10/11/2018 18:30:00 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.117 , 10/11/2018 18:30:02 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 14.277 , 10/11/2018 18:30:04 UTC  
+10.0.0.1 , 10.0.0.1 , 0.516 , 10/11/2018 18:30:16 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.805 , 10/11/2018 18:30:18 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 81.632 , 10/11/2018 18:30:21 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 14.986 , 10/11/2018 18:30:23 UTC  
+64.28.108.203 , vatican.com , 58.313 , 10/11/2018 18:30:25 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.453 , 10/11/2018 18:30:27 UTC  
+sfo03s06-in-x01.1e100.net (2607:f8b0:4005:806::2001 , navycaptain-therealnavy.blogspot.com , 13.501 , 10/11/2018 18:30:29 UTC  
+10.0.0.1 , 10.0.0.1 , 1.060 , 10/11/2018 18:30:41 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.253 , 10/11/2018 18:30:43 UTC  
+media-router-fp1.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::3 , yahoo.com , 62.375 , 10/11/2018 18:30:45 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.045 , 10/11/2018 18:30:47 UTC  
+64.28.108.203 , vatican.com , 58.934 , 10/11/2018 18:30:50 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.043 , 10/11/2018 18:30:52 UTC  
+sfo03s06-in-x01.1e100.net (2607:f8b0:4005:806::2001 , navycaptain-therealnavy.blogspot.com , 13.198 , 10/11/2018 18:30:54 UTC  
+10.0.0.1 , 10.0.0.1 , 1.169 , 10/11/2018 18:31:06 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.288 , 10/11/2018 18:31:08 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 34.374 , 10/11/2018 18:31:10 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.943 , 10/11/2018 18:31:12 UTC  
+64.28.108.203 , vatican.com , 58.034 , 10/11/2018 18:31:14 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 15.271 , 10/11/2018 18:31:16 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.186 , 10/11/2018 18:31:18 UTC  
+10.0.0.1 , 10.0.0.1 , 1.003 , 10/11/2018 18:31:31 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.840 , 10/11/2018 18:31:33 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 33.629 , 10/11/2018 18:31:35 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.593 , 10/11/2018 18:31:37 UTC  
+64.28.108.203 , vatican.com , 58.752 , 10/11/2018 18:31:39 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.810 , 10/11/2018 18:31:41 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 14.703 , 10/11/2018 18:31:43 UTC  
+10.0.0.1 , 10.0.0.1 , 0.863 , 10/11/2018 18:31:55 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.957 , 10/11/2018 18:31:57 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 81.309 , 10/11/2018 18:31:59 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 14.543 , 10/11/2018 18:32:02 UTC  
+64.28.108.203 , vatican.com , 62.139 , 10/11/2018 18:32:04 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 15.229 , 10/11/2018 18:32:06 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.998 , 10/11/2018 18:32:08 UTC  
+10.0.0.1 , 10.0.0.1 , 1.071 , 10/11/2018 18:32:20 UTC  
+sfo03s06-in-x0e.1e100.net (2607:f8b0:4005:806::200e , google.com , 13.151 , 10/11/2018 18:32:22 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 33.467 , 10/11/2018 18:32:24 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.030 , 10/11/2018 18:32:26 UTC  
+64.28.108.203 , vatican.com , 58.370 , 10/11/2018 18:32:28 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.657 , 10/11/2018 18:32:31 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.172 , 10/11/2018 18:32:33 UTC  
+10.0.0.1 , 10.0.0.1 , 0.979 , 10/11/2018 18:32:45 UTC  
+sfo03s06-in-x0e.1e100.net (2607:f8b0:4005:806::200e , google.com , 12.994 , 10/11/2018 18:32:47 UTC  
+media-router-fp1.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::3 , yahoo.com , 63.233 , 10/11/2018 18:32:49 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.000 , 10/11/2018 18:32:51 UTC  
+64.28.108.203 , vatican.com , 58.211 , 10/11/2018 18:32:53 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.039 , 10/11/2018 18:32:55 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 14.848 , 10/11/2018 18:32:57 UTC  
+10.0.0.1 , 10.0.0.1 , 1.243 , 10/11/2018 18:33:10 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 13.675 , 10/11/2018 18:33:12 UTC  
+media-router-fp1.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::10 , yahoo.com , 86.112 , 10/11/2018 18:33:14 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.801 , 10/11/2018 18:33:16 UTC  
+64.28.108.203 , vatican.com , 58.320 , 10/11/2018 18:33:18 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.422 , 10/11/2018 18:33:20 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 15.303 , 10/11/2018 18:33:22 UTC  
+10.0.0.1 , 10.0.0.1 , 1.060 , 10/11/2018 18:33:34 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 12.676 , 10/11/2018 18:33:36 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.370 , 10/11/2018 18:33:38 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.287 , 10/11/2018 18:33:41 UTC  
+64.28.108.203 , vatican.com , 58.764 , 10/11/2018 18:33:43 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.712 , 10/11/2018 18:33:45 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 13.771 , 10/11/2018 18:33:47 UTC  
+10.0.0.1 , 10.0.0.1 , 1.259 , 10/11/2018 18:33:59 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.085 , 10/11/2018 18:34:01 UTC  
+media-router-fp1.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::4 , yahoo.com , 32.739 , 10/11/2018 18:34:03 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.135 , 10/11/2018 18:34:05 UTC  
+64.28.108.203 , vatican.com , 58.613 , 10/11/2018 18:34:07 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.162 , 10/11/2018 18:34:10 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 13.508 , 10/11/2018 18:34:12 UTC  
+10.0.0.1 , 10.0.0.1 , 1.072 , 10/11/2018 18:34:24 UTC  
+nuq04s29-in-x0e.1e100.net (2607:f8b0:4005:801::200e , google.com , 12.860 , 10/11/2018 18:34:26 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 81.492 , 10/11/2018 18:34:28 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.140 , 10/11/2018 18:34:30 UTC  
+64.28.108.203 , vatican.com , 58.210 , 10/11/2018 18:34:32 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 14.242 , 10/11/2018 18:34:34 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 13.781 , 10/11/2018 18:34:36 UTC  
+10.0.0.1 , 10.0.0.1 , 1.401 , 10/11/2018 18:34:49 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.371 , 10/11/2018 18:34:51 UTC  
+media-router-fp2.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::11 , yahoo.com , 81.917 , 10/11/2018 18:34:53 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.017 , 10/11/2018 18:34:55 UTC  
+64.28.108.203 , vatican.com , 58.630 , 10/11/2018 18:34:57 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.765 , 10/11/2018 18:34:59 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 13.585 , 10/11/2018 18:35:01 UTC  
+10.0.0.1 , 10.0.0.1 , 0.995 , 10/11/2018 18:35:13 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.584 , 10/11/2018 18:35:15 UTC  
+media-router-fp1.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::10 , yahoo.com , 86.363 , 10/11/2018 18:35:17 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.490 , 10/11/2018 18:35:20 UTC  
+64.28.108.203 , vatican.com , 58.685 , 10/11/2018 18:35:22 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.886 , 10/11/2018 18:35:24 UTC  
+sfo03s07-in-x01.1e100.net (2607:f8b0:4005:808::2001 , navycaptain-therealnavy.blogspot.com , 12.971 , 10/11/2018 18:35:26 UTC  
+10.0.0.1 , 10.0.0.1 , 1.520 , 10/11/2018 18:35:38 UTC  
+nuq04s29-in-x0e.1e100.net (2607:f8b0:4005:801::200e , google.com , 13.041 , 10/11/2018 18:35:40 UTC  
+media-router-fp1.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::10 , yahoo.com , 86.152 , 10/11/2018 18:35:42 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 13.185 , 10/11/2018 18:35:44 UTC  
+64.28.108.203 , vatican.com , 59.768 , 10/11/2018 18:35:46 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.375 , 10/11/2018 18:35:49 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 12.964 , 10/11/2018 18:35:51 UTC  
+10.0.0.1 , 10.0.0.1 , 1.026 , 10/11/2018 18:36:03 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.178 , 10/11/2018 18:36:05 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 33.486 , 10/11/2018 18:36:07 UTC  
+2606:4700:30::681f:5f3b (2606:4700:30::681f:5f3b , aline.com , 13.135 , 10/11/2018 18:36:09 UTC  
+64.28.108.203 , vatican.com , 58.187 , 10/11/2018 18:36:11 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 13.186 , 10/11/2018 18:36:13 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.184 , 10/11/2018 18:36:15 UTC  
+10.0.0.1 , 10.0.0.1 , 1.286 , 10/11/2018 18:36:28 UTC  
+nuq04s29-in-x0e.1e100.net (2607:f8b0:4005:801::200e , google.com , 13.630 , 10/11/2018 18:36:30 UTC  
+media-router-fp2.prod1.media.vip.gq1.yahoo.com (2001:4998:c:1023::5 , yahoo.com , 33.237 , 10/11/2018 18:36:32 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.945 , 10/11/2018 18:36:34 UTC  
+64.28.108.203 , vatican.com , 58.458 , 10/11/2018 18:36:36 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 12.861 , 10/11/2018 18:36:38 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 12.594 , 10/11/2018 18:36:40 UTC  
+10.0.0.1 , 10.0.0.1 , 0.784 , 10/11/2018 18:36:52 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 19.366 , 10/11/2018 18:36:54 UTC  
+media-router-fp1.prod1.media.vip.bf1.yahoo.com (2001:4998:58:1836::10 , yahoo.com , 90.725 , 10/11/2018 18:36:56 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 18.309 , 10/11/2018 18:36:59 UTC  
+64.28.108.203 , vatican.com , 60.846 , 10/11/2018 18:37:01 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 14.161 , 10/11/2018 18:37:03 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 15.319 , 10/11/2018 18:37:05 UTC  
+10.0.0.1 , 10.0.0.1 , 2.554 , 10/11/2018 18:37:17 UTC  
+sfo07s13-in-x0e.1e100.net (2607:f8b0:4005:804::200e , google.com , 14.318 , 10/11/2018 18:37:19 UTC  
+media-router-fp2.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::4 , yahoo.com , 59.792 , 10/11/2018 18:37:21 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 16.455 , 10/11/2018 18:37:23 UTC  
+64.28.108.203 , vatican.com , 59.060 , 10/11/2018 18:37:25 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 17.839 , 10/11/2018 18:37:28 UTC  
+sfo07s13-in-x01.1e100.net (2607:f8b0:4005:804::2001 , navycaptain-therealnavy.blogspot.com , 15.413 , 10/11/2018 18:37:30 UTC  
+10.0.0.1 , 10.0.0.1 , 0.902 , 10/11/2018 18:37:42 UTC  
+sfo03s07-in-x0e.1e100.net (2607:f8b0:4005:808::200e , google.com , 13.521 , 10/11/2018 18:37:44 UTC  
+media-router-fp1.prod1.media.vip.ne1.yahoo.com (2001:4998:44:41d::3 , yahoo.com , 61.387 , 10/11/2018 18:37:46 UTC  
+2606:4700:30::681f:5e3b (2606:4700:30::681f:5e3b , aline.com , 12.934 , 10/11/2018 18:37:48 UTC  
+64.28.108.203 , vatican.com , 61.613 , 10/11/2018 18:37:50 UTC  
+edge-star-mini6-shv-01-sjc3.facebook.com (2a03:2880:f131:83:face:b00c:0:25de , facebook.com , 14.871 , 10/11/2018 18:37:52 UTC  
+nuq04s29-in-x01.1e100.net (2607:f8b0:4005:801::2001 , navycaptain-therealnavy.blogspot.com , 13.811 , 10/11/2018 18:37:54 UTC  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
