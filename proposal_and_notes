@@ -1,3 +1,44 @@
+what is average from:
+	each house?
+	hourly
+		use time stamp
+		for record in time band...
+		group by
+	get average time
+
+
+
+
+scamper
+	pings
+
+"different ideas"
+	-corey corelation
+	-zaki additive effect
+	-ping loss, latency
+	-correlation among data points
+	-diurnal
+	-CDNs less diurnal
+
+
+scamper tool for tracerout
+	output to json
+	paris style traceroute
+	scamper = paralle internet measurement utility
+	write json
+
+
+	cut data a couple of ways
+
+ping, 
+increased latency
+
+might expect packet loss for 
+	outage
+	congestion
+
+
+
 
 1.1  automate data collection to send to github
 	- file names per day
