@@ -4,14 +4,14 @@
 # fields of output file:
 #ip, url, avg_time_of_NUM_PINGS, tod
 
-HUMAN_HOST="A"
+HUMAN_HOST="Z"
 
 DATE=""
 
 #ALEX version: 
-HOST="$(route get default | grep gateway | cut -d':' -f 2)"
+#HOST="$(route get default | grep gateway | cut -d':' -f 2)"
 #zaki pi version:
-#HOST="$(ip route | grep default | cut -d " " -f 3)"
+HOST="$(ip route | grep default | cut -d " " -f 3)"
 
 NUM_PINGS=3
 ARRAY_OF_HOSTS=("$HOST" "google.com" "yahoo.com" "aline.com" "vatican.com" "facebook.com" "navycaptain-therealnavy.blogspot.com" ) #
