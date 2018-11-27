@@ -1,3 +1,10 @@
+3 questions:
+	what is the time pattern? Is pattern diurnal
+	when there is a longer delay from device to gateway, does that impact network latency
+	Assuming there is some kind of time-based pattern related to latency, do CDN's have less latency
+
+
+
 what is average from:
 	each house?
 	hourly
