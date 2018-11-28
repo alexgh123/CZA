@@ -68,7 +68,7 @@ from datetime import datetime
 
 # file = open("20181126_A_outFile.txt", "r")
 counter=0
-limit_to_lines = 55
+limit_to_lines = 25000
 second_counter = 0
 dict_of_sites = {}
 
@@ -90,7 +90,7 @@ def Average(list):
 
 
 
-with open('test_data.txt') as csv_file:
+with open('20181126_A_outFile.txt') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
 
     for line in csv_reader:
@@ -113,24 +113,24 @@ with open('test_data.txt') as csv_file:
 
 
 		#do dictionary check, if key in dict...
-		print(" ")
-		print("examining this line:")
-		print(line)
+		# print(" ")
+		# print("examining this line:")
+		# print(line)
 		if(url in dict_of_sites):
 			#something
-			print("dict has key...")
+			# print("dict has key...")
 			dict_of_sites[url][correct_bin_index].append(ping_time)
 		#populate dict w/ new bin if doesn't exist
 		else:
 			bins = [[] for _ in range(24)]
-			print("dict doesn't have key, here is line[1]")
-			print(url)
+			# print("dict doesn't have key, here is line[1]")
+			# print(url)
 			dict_of_sites[url]= bins
 			dict_of_sites[url][correct_bin_index].append(ping_time)
 
-		print(dict_of_sites)
+		# print(dict_of_sites)
 
-		print(" ")
+		# print(" ")
 		# check = raw_input("press_enter")
 		# print(" ")
 
@@ -157,9 +157,10 @@ with open('test_data.txt') as csv_file:
 	#for hourly_bin in dict[url]:
 		#hourly_bin = Average(hourly_bin)
 # print(dict_of_sites)
+print(dict_of_sites)
 new_dict = dict_of_sites
-index_into_nested_list = 0
 for url in new_dict:
+	index_into_nested_list = 0
 	for hourly_bin in new_dict[url]:
 		# print(" ")
 		# print("whole dict:")
@@ -168,9 +169,12 @@ for url in new_dict:
 		# print("old value:")
 		# print(hourly_bin)
 		hourly_bin = Average(hourly_bin)
-		# print("to:")
-		# print(hourly_bin)
-		new_dict[url][index_into_nested_list] = hourly_bin
+		print("to:")
+		print(hourly_bin)
+		print(new_dict[url])
+		print(index_into_nested_list)
+		print(" ")
+		new_dict[url][index_into_nested_list] = round(hourly_bin, 3)
 
 		index_into_nested_list += 1
 
