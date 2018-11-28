@@ -68,7 +68,7 @@ from datetime import datetime
 
 # file = open("20181126_A_outFile.txt", "r")
 counter=0
-limit_to_lines = 15
+limit_to_lines = 55
 second_counter = 0
 dict_of_sites = {}
 
@@ -85,11 +85,12 @@ seconds_in_an_hour = 3600
 #2607:f8b0:4005:804::200e , google.com , 12.539 , 26/11/2018 00:00:05 UTC  
 #2001:4998:c:1023::4      , yahoo.com ,  32.822 , 26/11/2018 00:00:07 UTC  
 
+def Average(list): 
+    return sum(list) / len(list) 
 
 
 
-
-with open('20181126_A_outFile.txt') as csv_file:
+with open('test_data.txt') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
 
     for line in csv_reader:
@@ -130,8 +131,8 @@ with open('20181126_A_outFile.txt') as csv_file:
 		print(dict_of_sites)
 
 		print(" ")
-		check = raw_input("press_enter")
-		print(" ")
+		# check = raw_input("press_enter")
+		# print(" ")
 
 		#examine number of seconds, place time in appropriate bin
 
@@ -142,8 +143,35 @@ with open('20181126_A_outFile.txt') as csv_file:
 
 # print(dict_of_sites)
 	
+# get hourly averages in bins
+'''
+{'yahoo.com': [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [86.884, 87.884, 33.031]],
+ 'aline.com': [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [12.855, 13.041, 13.817]],
+ 'google.com': [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [13.783, 13.61, 13.982]],
+ 'navycaptain-therealnavy.blogspot.com': [[12.422], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [13.325, 13.467]],
+ 'facebook.com': [[14.5], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [13.289, 14.092]], '10.0.0.1': [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [1.413, 1.092]], 
+ 'vatican.com': [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [57.425, 57.687, 57.011]]}
+'''
 
+#for url in dict
+	#for hourly_bin in dict[url]:
+		#hourly_bin = Average(hourly_bin)
+# print(dict_of_sites)
+new_dict = dict_of_sites
+index_into_nested_list = 0
+for url in new_dict:
+	for hourly_bin in new_dict[url]:
+		# print(" ")
+		# print("whole dict:")
+		# print(new_dict)
+		# print(" ")
+		# print("old value:")
+		# print(hourly_bin)
+		hourly_bin = Average(hourly_bin)
+		# print("to:")
+		# print(hourly_bin)
+		new_dict[url][index_into_nested_list] = hourly_bin
 
+		index_into_nested_list += 1
 
-
-
+print(new_dict)
