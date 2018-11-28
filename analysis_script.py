@@ -68,21 +68,36 @@ from datetime import datetime
 
 # file = open("20181126_A_outFile.txt", "r")
 counter=0
-limit_to_lines = 100
+limit_to_lines = 15
 second_counter = 0
 dict_of_sites = {}
 
-user_arg_one = 2
+num_bins = 2
 seconds_in_a_day = 86400
+seconds_in_an_hour = 3600
+
+# {
+#   facebook: [[12.3, 2.2, 3.1], [AVG]],
+#   2ndsite:  [[3.3, 20.2, 30.1], [avg]],
+#
+# }
+
+#2607:f8b0:4005:804::200e , google.com , 12.539 , 26/11/2018 00:00:05 UTC  
+#2001:4998:c:1023::4      , yahoo.com ,  32.822 , 26/11/2018 00:00:07 UTC  
+
+
+
+
 
 with open('20181126_A_outFile.txt') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
 
     for line in csv_reader:
 		counter += 1
-		#don't use first three lines
+		#don't use first three lines, its metadata
 		if(counter<= 3):
 			continue
+		#break at limit for development purposes
 		if (counter >= limit_to_lines):
 			break
 		
@@ -91,10 +106,41 @@ with open('20181126_A_outFile.txt') as csv_file:
 		#format 26/11/2018 00:00:05 UTC
 		row_time = datetime.strptime(line[3], ' %d/%m/%Y %H:%M:%S %Z ')
 		seconds_since_midnight = (row_time - row_time.replace(hour=0, minute=0, second=0, microsecond=0)).total_seconds()
-		
-		print(line[1])
+		correct_bin_index = int(seconds_since_midnight/seconds_in_an_hour)
+		url = line[1].strip()
+		ping_time = float(line[2].strip())
 
+
+		#do dictionary check, if key in dict...
+		print(" ")
+		print("examining this line:")
+		print(line)
+		if(url in dict_of_sites):
+			#something
+			print("dict has key...")
+			dict_of_sites[url][correct_bin_index].append(ping_time)
+		#populate dict w/ new bin if doesn't exist
+		else:
+			bins = [[] for _ in range(24)]
+			print("dict doesn't have key, here is line[1]")
+			print(url)
+			dict_of_sites[url]= bins
+			dict_of_sites[url][correct_bin_index].append(ping_time)
+
+		print(dict_of_sites)
+
+		print(" ")
+		check = raw_input("press_enter")
+		print(" ")
+
+		#examine number of seconds, place time in appropriate bin
+
+		# get average time for each bin
+		# if()
 		
+		# print(line[1])
+
+# print(dict_of_sites)
 	
 
 
