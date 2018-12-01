@@ -7,8 +7,8 @@
 #==========================
 
 #input file format:
-#2607:f8b0:4005:804::200e , google.com , 12.539 , 26/11/2018 00:00:05 UTC  
-#2001:4998:c:1023::4      , yahoo.com ,  32.822 , 26/11/2018 00:00:07 UTC  
+#2607:f8b0:4005:804::200e , google.com , 12.539 , 26/11/2018 00:00:05 UTC
+#2001:4998:c:1023::4      , yahoo.com ,  32.822 , 26/11/2018 00:00:07 UTC
 
 
 # ideal answer format:
@@ -75,9 +75,12 @@ with open('20181126_A_outFile.txt') as csv_file:
 		# data format 26/11/2018 00:00:05 UTC
 		row_time = datetime.strptime(line[3], ' %d/%m/%Y %H:%M:%S %Z ')
 		seconds_since_midnight = (row_time - row_time.replace(hour=0, minute=0, second=0, microsecond=0)).total_seconds()
+		
 		# below operation will provide correct index number to find correct 
 		# hourly bin to store times in
 		correct_bin_index = int(seconds_since_midnight/seconds_in_an_hour)
+		
+		#format some data...
 		url = line[1].strip()
 		ping_time = float(line[2].strip())
 
@@ -111,5 +114,17 @@ for url in new_dict:
 		new_dict[url][index_into_nested_list] = round(hourly_bin, 3)
 		index_into_nested_list += 1
 
-print("here is your dictionary of average ping time, hourly...")
-print(new_dict)
+# print("here is your dictionary of average ping time, hourly...")
+# print(new_dict)
+
+
+#write output somewhere productive:
+	#googleFile
+	#yahooFile
+		# output to those files:
+			# date:avg_for_that_day
+
+
+
+
+
