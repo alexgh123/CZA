@@ -169,15 +169,116 @@ listOfFiles = [x.strip() for x in listOfFiles]
 
 # exit()
 
+allHourlyAverages = []
 for file in listOfFiles:
 	new_dict = analyzeFile(file)
 	hourlyAverage = getAverageHourlyPing(new_dict)
-	print("this file:")
-	print(file)
-	print("generates this data:")
-	print(hourlyAverage)
-	print(" ")
-	print(" ")
+	# print("this file:")
+	# print(file)
+	# print("generates this data:")
+	# print(hourlyAverage)
+	allHourlyAverages.append(hourlyAverage)
+
+masterDict = {}
+for hourlyAverage in allHourlyAverages:
+	# print(" ")
+	# print(" here is the hourly average we are going to work with:")
+	# print(hourlyAverage)
+
+	for site, hourlyBinsList in hourlyAverage.iteritems():
+		indexIntoBin = 0
+		for hourlyBin in hourlyBinsList:
+			# print(" ")
+			# print("old masterDict")
+			# print(masterDict)
+
+			# a = raw_input("press enter")
+			
+			#REMINDER: check if hourlyBin is int.....
+			
+			#masterDict =
+				# yahoo.com: [
+				#             [33,2]
+				#             [44,2]
+				#            ]
+
+			#add hourlyBin Time to masterelement 0 to itself
+			# masterDict[site]
+				#returns [[a,1],[b,2],[c,3],[]]
+
+
+			# {}
+
+
+			if (hourlyBin == "no_pings"):
+				indexIntoBin += 1
+				continue
+			else:
+				if site in masterDict:
+					# c = raw_input('here is your thingy')
+					# print(masterDict[site][indexIntoBin])
+					if(len(masterDict[site][indexIntoBin]) == 0):
+						masterDict[site][indexIntoBin] = [hourlyBin,1]
+					else:
+						# print("old dict, pre update:")
+						# print(masterDict)
+						# c = raw_input('here is your thingy')
+						masterDict[site][indexIntoBin][0] += hourlyBin
+						masterDict[site][indexIntoBin][1] += 1
+						# print(masterDict)
+					# masterDict[site][indexIntoBin][1] += 1
+				else:
+					masterDict[site] = [[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+					# print("here is master dict before update...")
+					# print(masterDict)
+					# b = raw_input("press enter")
+					# print("here is masterDict at indexIntoBin")
+					# print(masterDict[site][indexIntoBin])
+
+					masterDict[site][indexIntoBin] = [hourlyBin,1]
+					# masterDict[site][indexIntoBin][1].append(1)
+
+			indexIntoBin += 1
+
+		# print("new masterDict")
+		# print(masterDict)
+print(masterDict)
+
+for site, list_of_time_count_pairs in masterDict.iteritems():
+	list_index = 0
+	for pair in list_of_time_count_pairs:
+		masterDict[site][list_index] = round((pair[0]/pair[1]), 2)
+		list_index += 1
+
+print(masterDict)
+
+exit()
+#if int
+	# masterDict[site] = 
+	#else not int
+
+	# yahoo:     [[59, 3],[59, 3]]
+	# aline.com: [22, 4]
+
+'''
+	{'yahoo.com': [no_pings, 'no_pings', 60.676, 59.458, 64.704, 63.389, 58.021, 58.023, 58.802, 58.637, 58.67, 59.693, 59.15, 59.427, 59.477, 58.634, 62.076, 60.102, 59.414, 60.593, 59.161, 59.757, 60.091, 59.572], 
+	'aline.com': [15.218, 15.087, 15.56, 15.508, 20.739, 19.841, 15.201, 15.103, 14.386, 13.358, 13.37, 13.236, 14.088, 14.686, 14.736, 14.714, 15.26, 15.069, 14.909, 15.011, 14.879, 14.707, 14.883, 14.931],
+	'google.com': [14.924, 15.145, 15.424, 15.187, 20.135, 19.87, 15.679, 14.885, 14.118, 13.35, 13.127, 13.209, 13.874, 14.681, 14.637, 15.337, 15.031, 15.076, 14.689, 14.819, 15.267, 15.306, 14.759, 14.738],
+	'navycaptain-therealnavy.blogspot.com': [15.534, 15.243, 15.794, 15.785, 20.227, 19.515, 15.387, 15.037, 14.041, 13.424, 14.593, 13.303, 14.038, 14.933, 14.852, 14.82, 15.159, 15.052, 15.089, 14.967, 14.816, 14.772, 14.899, 14.847],
+	'facebook.com': [15.235, 15.401, 16.008, 15.888, 20.534, 20.249, 15.182, 15.468, 14.53, 13.688, 13.557, 13.572, 14.298, 14.911, 15.044, 15.11, 15.326, 15.146, 15.121, 14.924, 15.241, 15.017, 15.05, 15.031], 
+	'10.0.0.1': [2.156, 2.0, 2.016, 2.46, 2.035, 2.074, 2.854, 2.002, 2.001, 2.003, 2.021, 2.012, 2.003, 1.994, 2.113, 2.005, 2.828, 2.015, 2.019, 1.979, 2.015, 2.011, 1.998, 2.011], 
+	'vatican.com': [59.347, 59.389, 60.056, 59.945, 64.366, 64.17, 59.401, 59.205, 58.675, 57.814, 57.91, 57.808, 58.612, 58.795, 59.138, 59.141, 59.304, 59.168, 59.136, 59.159, 59.036, 59.021, 59.284, 59.262]}
+
+	{'yahoo.com': [59.233, 'no_pings', 60.676, 59.458, 64.704, 63.389, 58.021, 58.023, 58.802, 58.637, 58.67, 59.693, 59.15, 59.427, 59.477, 58.634, 62.076, 60.102, 59.414, 60.593, 59.161, 59.757, 60.091, 59.572], 
+	'aline.com': [15.218, 15.087, 15.56, 15.508, 20.739, 19.841, 15.201, 15.103, 14.386, 13.358, 13.37, 13.236, 14.088, 14.686, 14.736, 14.714, 15.26, 15.069, 14.909, 15.011, 14.879, 14.707, 14.883, 14.931],
+	 'google.com': [14.924, 15.145, 15.424, 15.187, 20.135, 19.87, 15.679, 14.885, 14.118, 13.35, 13.127, 13.209, 13.874, 14.681, 14.637, 15.337, 15.031, 15.076, 14.689, 14.819, 15.267, 15.306, 14.759, 14.738],
+	 'navycaptain-therealnavy.blogspot.com': [15.534, 15.243, 15.794, 15.785, 20.227, 19.515, 15.387, 15.037, 14.041, 13.424, 14.593, 13.303, 14.038, 14.933, 14.852, 14.82, 15.159, 15.052, 15.089, 14.967, 14.816, 14.772, 14.899, 14.847],
+	 'facebook.com': [15.235, 15.401, 16.008, 15.888, 20.534, 20.249, 15.182, 15.468, 14.53, 13.688, 13.557, 13.572, 14.298, 14.911, 15.044, 15.11, 15.326, 15.146, 15.121, 14.924, 15.241, 15.017, 15.05, 15.031], 
+	'10.0.0.1': [2.156, 2.0, 2.016, 2.46, 2.035, 2.074, 2.854, 2.002, 2.001, 2.003, 2.021, 2.012, 2.003, 1.994, 2.113, 2.005, 2.828, 2.015, 2.019, 1.979, 2.015, 2.011, 1.998, 2.011], 
+	'vatican.com': [59.347, 59.389, 60.056, 59.945, 64.366, 64.17, 59.401, 59.205, 58.675, 57.814, 57.91, 57.808, 58.612, 58.795, 59.138, 59.141, 59.304, 59.168, 59.136, 59.159, 59.036, 59.021, 59.284, 59.262]}
+	'''
+	#print(" ")
+	#print(" ")
 
 
 
