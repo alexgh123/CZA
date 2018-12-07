@@ -47,6 +47,8 @@
 import csv
 from datetime import datetime
 
+import matplotlib.pyplot as plt
+import numpy as np
 
 # num_bins = 2
 seconds_in_an_hour = 3600
@@ -250,7 +252,86 @@ for site, list_of_time_count_pairs in masterDict.iteritems():
 		masterDict[site][list_index] = round((pair[0]/pair[1]), 2)
 		list_index += 1
 
+print(" ")
+print(" average for these file:")
+print(listOfFiles)
+print(" ")
 print(masterDict)
+
+print(" ")
+
+# ax.bar(x-0.2, y,width=0.2,color='b',align='center')
+# ax.bar(x, z,width=0.2,color='g',align='center')
+# ax.bar(x+0.2, k,width=0.2,color='r',align='center')
+# ax.xaxis_date()
+
+colors = ["red", "blue", "green", "orange", "black", "yellow", "purple"]
+# ax = plt.subplot()
+# x=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+i = 0
+
+fig, ax, = plt.subplots()
+# rects1 = ax.bar()
+
+# for site, array_of_times in masterDict.iteritems():
+y = masterDict["yahoo.com"]
+g = masterDict["google.com"]
+a = masterDict["aline.com"]
+f = masterDict["facebook.com"]
+n = masterDict["navycaptain-therealnavy.blogspot.com"]
+v = masterDict["vatican.com"]
+
+N = len(y)
+width = 0.6
+ind = np.arange(N)
+fig, ax = plt.subplots()
+w=.2
+
+print(ind-width/6)
+print(" ")
+print(ind-width*2/6)
+print(" ")
+print(ind-width*3/6)
+print(" ")
+print(ind+width/6)
+print(" ")
+print(ind+width*2/6)
+print(" ")
+print(ind+width*3/6)
+print(" ")
+# exit()
+
+ax.bar(ind-width/6,   y, width, align='center', color=colors[0], label="yahoo.com")
+ax.bar(ind-width*2/6, g, width, align='center', color=colors[1], label="google.com")
+ax.bar(ind-width*3/6, a, width, align='center', color=colors[2], label="aline.com")
+ax.bar(ind+width/6,   f, width, align='center', color=colors[3], label="facebook.com")
+ax.bar(ind+width*2/6, n, width, align='center', color=colors[4], label="navycaptain-therealnavy.blogspot.com")
+ax.bar(ind+width*3/6, v, width, align='center', color=colors[5], label="vatican.com")
+ax.autoscale(tight=True)
+
+# y = masterDict["google.com"]
+# rects1 = ax.bar(ind, y, width, color='g')
+
+# for site, array_of_times in masterDict.iteritems():
+	# y = array_of_times
+	# x = range(N)
+
+	# plt.subplot(x, y,width,color=colors[i],align='center')
+	# plt.bar(x, y, width, color="blue")
+	# i +=1
+
+plt.show()
+	# plt.bar(24,np.array(array_of_times), width, color='blue')
+
+	# y = [3, 10, 7, 5, 3, 4.5, 6, 8.1]
+	# N = len(y)
+	# x = range(N)
+	# width = 1/1.5
+	# plt.bar(x, y, width, color="blue")
+	#label each line
+	#all on same plot
+
+
 
 exit()
 #if int
