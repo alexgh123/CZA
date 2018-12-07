@@ -265,7 +265,7 @@ print(" ")
 # ax.bar(x+0.2, k,width=0.2,color='r',align='center')
 # ax.xaxis_date()
 
-colors = ["red", "blue", "green", "orange", "black", "yellow", "purple"]
+colors = ["red", "blue", "green", "orange", "black", "yellow", "purple", "magenta"]
 # ax = plt.subplot()
 # x=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
 i = 0
@@ -280,34 +280,27 @@ a = masterDict["aline.com"]
 f = masterDict["facebook.com"]
 n = masterDict["navycaptain-therealnavy.blogspot.com"]
 v = masterDict["vatican.com"]
+r = masterDict["10.0.0.1"]
 
-N = len(y)
-width = 0.6
-ind = np.arange(N)
-fig, ax = plt.subplots()
-w=.2
 
-print(ind-width/6)
-print(" ")
-print(ind-width*2/6)
-print(" ")
-print(ind-width*3/6)
-print(" ")
-print(ind+width/6)
-print(" ")
-print(ind+width*2/6)
-print(" ")
-print(ind+width*3/6)
-print(" ")
-# exit()
 
-ax.bar(ind-width/6,   y, width, align='center', color=colors[0], label="yahoo.com")
-ax.bar(ind-width*2/6, g, width, align='center', color=colors[1], label="google.com")
-ax.bar(ind-width*3/6, a, width, align='center', color=colors[2], label="aline.com")
-ax.bar(ind+width/6,   f, width, align='center', color=colors[3], label="facebook.com")
-ax.bar(ind+width*2/6, n, width, align='center', color=colors[4], label="navycaptain-therealnavy.blogspot.com")
-ax.bar(ind+width*3/6, v, width, align='center', color=colors[5], label="vatican.com")
-ax.autoscale(tight=True)
+
+
+
+
+# plt.plot(y, color=colors[0], label="yahoo.com",linewidth=4)
+# plt.plot(g, color=colors[1], label="google.com",linewidth=4)
+# plt.plot(a, color=colors[2], label="aline.com",linewidth=4)
+# plt.plot(f, color=colors[3], label="facebook.com",linewidth=4)
+# plt.plot(n, color=colors[4], label="navycaptain-therealnavy.blogspot.com",linewidth=4)
+# plt.plot(v, color=colors[5], label="vatican.com",linewidth=4)
+plt.plot(r, color=colors[6], label="10.0.0.1",linewidth=4)
+plt.legend(loc='best')
+
+
+# y,g,a,f,n,v
+# plt.legend(handles=[y,g,a,f,n,v])
+# ax.autoscale(tight=True)
 
 # y = masterDict["google.com"]
 # rects1 = ax.bar(ind, y, width, color='g')
