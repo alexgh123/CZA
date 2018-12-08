@@ -72,9 +72,9 @@ def analyzeFile(fileName):
 	dict_of_sites = {}
 
 	with open(fileName) as csv_file:
-	    csv_reader = csv.reader(csv_file, delimiter=',')
+		csv_reader = csv.reader(csv_file, delimiter=',')
 	
-	    for line in csv_reader:
+		for line in csv_reader:
 			counter += 1
 			#don't use first three lines, its metadata
 			if(counter<= 3):
@@ -140,6 +140,13 @@ def getAverageHourlyPing(dictInput):
 	for url in dictInput:
 		index_into_nested_list = 0
 		for hourly_bin in dictInput[url]:
+			
+			#if(url == "google.com"):
+			#	print(" ")
+			#	print(" here! ")
+			#	print(hourly_bin)
+			#	print(" ")
+
 			# if(len(hour))
 			hourly_bin = Average(hourly_bin)
 			#below line introduces dependency on our input file (specifically index number)
@@ -164,22 +171,53 @@ def getAverageHourlyPing(dictInput):
 
 #get list of files
 #iterate through them
-with open("list_of_files.txt") as f:
-    listOfFiles = f.readlines()
-listOfFiles = [x.strip() for x in listOfFiles] 
+# with open("list_of_files.txt") as f:
+    # listOfFiles = f.readlines()
+# listOfFiles = [x.strip() for x in listOfFiles] 
 # print(listOfFiles)
 
 # exit()
 
+zaki_27 = ["20181127_Z_outFile.txt"]
+
+alex_weekday_files = ["20181113_A_outFile.txt","20181114_A_outFile.txt","20181115_A_outFile.txt","20181116_A_outFile.txt","20181119_A_outFile.txt","20181120_A_outFile.txt","20181121_A_outFile.txt","20181126_A_outFile.txt","20181127_A_outFile.txt","20181128_A_outFile.txt","20181129_A_outFile.txt","20181130_A_outFile.txt"]
+
+zaki_weekday_files = ["20181113_Z_outFile.txt","20181114_Z_outFile.txt","20181115_Z_outFile.txt","20181116_Z_outFile.txt","20181119_Z_outFile.txt","20181120_Z_outFile.txt","20181121_Z_outFile.txt","20181126_Z_outFile.txt","20181127_Z_outFile.txt","20181128_Z_outFile.txt","20181129_Z_outFile.txt","20181130_Z_outFile.txt"]
+
+corey_weekday_files = ["20181113_C_outFile.txt","20181114_C_outFile.txt","20181115_C_outFile.txt","20181116_C_outFile.txt","20181119_C_outFile.txt","20181120_C_outFile.txt","20181121_C_outFile.txt","20181126_C_outFile.txt","20181127_C_outFile.txt","20181128_C_outFile.txt","20181129_C_outFile.txt","20181130_C_outFile.txt"]
+
+all_weekday_files = alex_weekday_files + zaki_weekday_files+ corey_weekday_files
+
+alex_weekend_files = ["20181111_A_outFile.txt", "20181112_A_outFile.txt","20181117_A_outFile.txt","20181118_A_outFile.txt","20181122_A_outFile.txt","20181123_A_outFile.txt","20181124_A_outFile.txt","20181125_A_outFile.txt"]
+
+corey_weekend_files = ["20181111_C_outFile.txt", "20181112_C_outFile.txt","20181117_C_outFile.txt","20181118_C_outFile.txt","20181122_C_outFile.txt","20181123_C_outFile.txt","20181124_C_outFile.txt","20181125_C_outFile.txt"]
+
+zaki_weekend_files = ["20181111_Z_outFile.txt", "20181112_Z_outFile.txt","20181117_Z_outFile.txt","20181118_Z_outFile.txt","20181122_Z_outFile.txt","20181123_Z_outFile.txt","20181124_Z_outFile.txt","20181125_Z_outFile.txt"]
+
+all_weekend_files = zaki_weekend_files + alex_weekend_files +corey_weekend_files
+
+all_files = all_weekend_files + all_weekday_files
+
+all_alex_files = alex_weekday_files + alex_weekend_files
+all_zaki_files = zaki_weekday_files + zaki_weekend_files
+all_corey_files = corey_weekday_files + corey_weekend_files
+
+c_a_weekend_files = alex_weekend_files +corey_weekend_files
+
+files_list = all_zaki_files
+
 allHourlyAverages = []
-for file in listOfFiles:
+for file in files_list:
 	new_dict = analyzeFile(file)
 	hourlyAverage = getAverageHourlyPing(new_dict)
+	# print(hourlyAverage)
 	# print("this file:")
 	# print(file)
 	# print("generates this data:")
 	# print(hourlyAverage)
 	allHourlyAverages.append(hourlyAverage)
+
+
 
 masterDict = {}
 for hourlyAverage in allHourlyAverages:
@@ -244,7 +282,7 @@ for hourlyAverage in allHourlyAverages:
 
 		# print("new masterDict")
 		# print(masterDict)
-print(masterDict)
+# print(masterDict)
 
 for site, list_of_time_count_pairs in masterDict.iteritems():
 	list_index = 0
@@ -254,7 +292,7 @@ for site, list_of_time_count_pairs in masterDict.iteritems():
 
 print(" ")
 print(" average for these file:")
-print(listOfFiles)
+print(files_list)
 print(" ")
 print(masterDict)
 
@@ -280,79 +318,25 @@ a = masterDict["aline.com"]
 f = masterDict["facebook.com"]
 n = masterDict["navycaptain-therealnavy.blogspot.com"]
 v = masterDict["vatican.com"]
-r = masterDict["10.0.0.1"]
+# r = masterDict["10.0.0.1"]
 
 
 
-
-
-
-
-# plt.plot(y, color=colors[0], label="yahoo.com",linewidth=4)
-# plt.plot(g, color=colors[1], label="google.com",linewidth=4)
-# plt.plot(a, color=colors[2], label="aline.com",linewidth=4)
+plt.plot(y, color=colors[0], label="yahoo.com",   linewidth=4)
+# plt.plot(g, color=colors[1], label="google.com",  linewidth=4)
+# plt.plot(a, color=colors[2], label="aline.com",   linewidth=4)
 # plt.plot(f, color=colors[3], label="facebook.com",linewidth=4)
 # plt.plot(n, color=colors[4], label="navycaptain-therealnavy.blogspot.com",linewidth=4)
-# plt.plot(v, color=colors[5], label="vatican.com",linewidth=4)
-plt.plot(r, color=colors[6], label="10.0.0.1",linewidth=4)
+plt.plot(v, color=colors[5], label="vatican.com", linewidth=4)
+# plt.plot(r, color=colors[6], label="10.0.0.1",    linewidth=4)
+fig.suptitle('Zaki Low Performers')
+
+plt.xlabel('Hour of Day', fontsize=18)
+plt.ylabel('Latency (ms)', fontsize=16)
 plt.legend(loc='best')
 
 
-# y,g,a,f,n,v
-# plt.legend(handles=[y,g,a,f,n,v])
-# ax.autoscale(tight=True)
-
-# y = masterDict["google.com"]
-# rects1 = ax.bar(ind, y, width, color='g')
-
-# for site, array_of_times in masterDict.iteritems():
-	# y = array_of_times
-	# x = range(N)
-
-	# plt.subplot(x, y,width,color=colors[i],align='center')
-	# plt.bar(x, y, width, color="blue")
-	# i +=1
-
 plt.show()
-	# plt.bar(24,np.array(array_of_times), width, color='blue')
-
-	# y = [3, 10, 7, 5, 3, 4.5, 6, 8.1]
-	# N = len(y)
-	# x = range(N)
-	# width = 1/1.5
-	# plt.bar(x, y, width, color="blue")
-	#label each line
-	#all on same plot
-
-
-
-exit()
-#if int
-	# masterDict[site] = 
-	#else not int
-
-	# yahoo:     [[59, 3],[59, 3]]
-	# aline.com: [22, 4]
-
-'''
-	{'yahoo.com': [no_pings, 'no_pings', 60.676, 59.458, 64.704, 63.389, 58.021, 58.023, 58.802, 58.637, 58.67, 59.693, 59.15, 59.427, 59.477, 58.634, 62.076, 60.102, 59.414, 60.593, 59.161, 59.757, 60.091, 59.572], 
-	'aline.com': [15.218, 15.087, 15.56, 15.508, 20.739, 19.841, 15.201, 15.103, 14.386, 13.358, 13.37, 13.236, 14.088, 14.686, 14.736, 14.714, 15.26, 15.069, 14.909, 15.011, 14.879, 14.707, 14.883, 14.931],
-	'google.com': [14.924, 15.145, 15.424, 15.187, 20.135, 19.87, 15.679, 14.885, 14.118, 13.35, 13.127, 13.209, 13.874, 14.681, 14.637, 15.337, 15.031, 15.076, 14.689, 14.819, 15.267, 15.306, 14.759, 14.738],
-	'navycaptain-therealnavy.blogspot.com': [15.534, 15.243, 15.794, 15.785, 20.227, 19.515, 15.387, 15.037, 14.041, 13.424, 14.593, 13.303, 14.038, 14.933, 14.852, 14.82, 15.159, 15.052, 15.089, 14.967, 14.816, 14.772, 14.899, 14.847],
-	'facebook.com': [15.235, 15.401, 16.008, 15.888, 20.534, 20.249, 15.182, 15.468, 14.53, 13.688, 13.557, 13.572, 14.298, 14.911, 15.044, 15.11, 15.326, 15.146, 15.121, 14.924, 15.241, 15.017, 15.05, 15.031], 
-	'10.0.0.1': [2.156, 2.0, 2.016, 2.46, 2.035, 2.074, 2.854, 2.002, 2.001, 2.003, 2.021, 2.012, 2.003, 1.994, 2.113, 2.005, 2.828, 2.015, 2.019, 1.979, 2.015, 2.011, 1.998, 2.011], 
-	'vatican.com': [59.347, 59.389, 60.056, 59.945, 64.366, 64.17, 59.401, 59.205, 58.675, 57.814, 57.91, 57.808, 58.612, 58.795, 59.138, 59.141, 59.304, 59.168, 59.136, 59.159, 59.036, 59.021, 59.284, 59.262]}
-
-	{'yahoo.com': [59.233, 'no_pings', 60.676, 59.458, 64.704, 63.389, 58.021, 58.023, 58.802, 58.637, 58.67, 59.693, 59.15, 59.427, 59.477, 58.634, 62.076, 60.102, 59.414, 60.593, 59.161, 59.757, 60.091, 59.572], 
-	'aline.com': [15.218, 15.087, 15.56, 15.508, 20.739, 19.841, 15.201, 15.103, 14.386, 13.358, 13.37, 13.236, 14.088, 14.686, 14.736, 14.714, 15.26, 15.069, 14.909, 15.011, 14.879, 14.707, 14.883, 14.931],
-	 'google.com': [14.924, 15.145, 15.424, 15.187, 20.135, 19.87, 15.679, 14.885, 14.118, 13.35, 13.127, 13.209, 13.874, 14.681, 14.637, 15.337, 15.031, 15.076, 14.689, 14.819, 15.267, 15.306, 14.759, 14.738],
-	 'navycaptain-therealnavy.blogspot.com': [15.534, 15.243, 15.794, 15.785, 20.227, 19.515, 15.387, 15.037, 14.041, 13.424, 14.593, 13.303, 14.038, 14.933, 14.852, 14.82, 15.159, 15.052, 15.089, 14.967, 14.816, 14.772, 14.899, 14.847],
-	 'facebook.com': [15.235, 15.401, 16.008, 15.888, 20.534, 20.249, 15.182, 15.468, 14.53, 13.688, 13.557, 13.572, 14.298, 14.911, 15.044, 15.11, 15.326, 15.146, 15.121, 14.924, 15.241, 15.017, 15.05, 15.031], 
-	'10.0.0.1': [2.156, 2.0, 2.016, 2.46, 2.035, 2.074, 2.854, 2.002, 2.001, 2.003, 2.021, 2.012, 2.003, 1.994, 2.113, 2.005, 2.828, 2.015, 2.019, 1.979, 2.015, 2.011, 1.998, 2.011], 
-	'vatican.com': [59.347, 59.389, 60.056, 59.945, 64.366, 64.17, 59.401, 59.205, 58.675, 57.814, 57.91, 57.808, 58.612, 58.795, 59.138, 59.141, 59.304, 59.168, 59.136, 59.159, 59.036, 59.021, 59.284, 59.262]}
-	'''
-	#print(" ")
-	#print(" ")
 
 
 
