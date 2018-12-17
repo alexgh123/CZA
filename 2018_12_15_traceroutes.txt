@@ -1,0 +1,126 @@
+9:00 AM PST
+
+Alexanders-MacBook-Pro:~ alexanderhardt$ traceroute google.com
+traceroute to google.com (216.58.194.206), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  9.388 ms  8.438 ms  5.323 ms
+ 2  96.120.90.153 (96.120.90.153)  13.131 ms  11.017 ms  20.927 ms
+ 3  po-103-rur01.monterey.ca.sfba.comcast.net (68.87.227.185)  16.527 ms  10.238 ms  11.738 ms
+ 4  po-2-rur02.monterey.ca.sfba.comcast.net (69.139.198.130)  12.108 ms  16.659 ms  9.766 ms
+ 5  be-322-rar01.hayward.ca.sfba.comcast.net (162.151.79.125)  15.329 ms  14.062 ms  14.452 ms
+ 6  be-399-ar01.hayward.ca.sfba.comcast.net (68.86.143.89)  14.172 ms  16.953 ms  15.554 ms
+ 7  96.112.146.14 (96.112.146.14)  20.484 ms  17.778 ms
+    69.241.91.94 (69.241.91.94)  37.003 ms
+ 8  * * *
+ 9  209.85.248.34 (209.85.248.34)  20.272 ms
+    108.170.236.60 (108.170.236.60)  18.369 ms
+    209.85.251.4 (209.85.251.4)  82.079 ms
+10  108.170.242.254 (108.170.242.254)  14.911 ms
+    108.170.237.107 (108.170.237.107)  14.256 ms
+    108.170.242.83 (108.170.242.83)  33.323 ms
+11  72.14.237.147 (72.14.237.147)  14.967 ms
+    66.249.94.29 (66.249.94.29)  15.562 ms
+    216.239.62.41 (216.239.62.41)  34.663 ms
+12  sfo03s01-in-f14.1e100.net (216.58.194.206)  14.075 ms
+    74.125.253.191 (74.125.253.191)  14.464 ms
+    sfo03s01-in-f14.1e100.net (216.58.194.206)  14.237 ms
+Alexanders-MacBook-Pro:~ alexanderhardt$ 
+
+
+
+Alexanders-MacBook-Pro:~ alexanderhardt$ traceroute yahoo.com
+traceroute: Warning: yahoo.com has multiple addresses; using 98.137.246.7
+traceroute to yahoo.com (98.137.246.7), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  6.866 ms  3.987 ms  6.010 ms
+ 2  96.120.90.153 (96.120.90.153)  19.215 ms  17.626 ms  15.111 ms
+ 3  po-103-rur01.monterey.ca.sfba.comcast.net (68.87.227.185)  9.965 ms  12.589 ms  15.051 ms
+ 4  po-2-rur02.monterey.ca.sfba.comcast.net (69.139.198.130)  30.518 ms  18.745 ms  10.694 ms
+ 5  be-322-rar01.hayward.ca.sfba.comcast.net (162.151.79.125)  16.931 ms  46.788 ms  18.385 ms
+ 6  be-399-ar01.hayward.ca.sfba.comcast.net (68.86.143.89)  14.326 ms  15.148 ms  18.461 ms
+ 7  lag-14.ear2.sanjose1.level3.net (4.68.72.101)  25.524 ms  20.352 ms  17.489 ms
+ 8  * * *
+ 9  yahoo-inc.ear3.seattle1.level3.net (4.16.168.186)  35.059 ms  30.390 ms  31.386 ms
+10  ae-7.pat1.gqb.yahoo.com (216.115.96.45)  47.085 ms  37.265 ms  35.756 ms
+11  et-1-0-0.msr1.gq1.yahoo.com (66.196.67.101)  34.410 ms
+    et-19-1-0.msr1.gq1.yahoo.com (66.196.67.99)  34.701 ms
+    et-18-1-0.msr2.gq1.yahoo.com (66.196.67.115)  35.086 ms
+12  et-1-0-0.clr1-a-gdc.gq1.yahoo.com (67.195.37.93)  34.985 ms
+    et-1-1-0.clr1-a-gdc.gq1.yahoo.com (67.195.37.71)  35.314 ms
+    et-19-1-0.clr1-a-gdc.gq1.yahoo.com (67.195.37.95)  34.365 ms
+13  et-18-6.bas2-2-flk.gq1.yahoo.com (98.137.120.27)  36.601 ms  35.356 ms
+    et-16-6.bas2-2-flk.gq1.yahoo.com (98.137.120.14)  34.835 ms
+14  media-router-fp1.prod1.media.vip.gq1.yahoo.com (98.137.246.7)  33.672 ms  36.161 ms  35.152 ms
+Alexanders-MacBook-Pro:~ alexanderhardt$ 
+
+
+Alexanders-MacBook-Pro:~ alexanderhardt$ traceroute aline.com
+traceroute: Warning: aline.com has multiple addresses; using 104.31.95.59
+traceroute to aline.com (104.31.95.59), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  5.132 ms  2.738 ms  3.077 ms
+ 2  96.120.90.153 (96.120.90.153)  12.767 ms  10.785 ms  11.100 ms
+ 3  po-103-rur01.monterey.ca.sfba.comcast.net (68.87.227.185)  12.644 ms  10.471 ms  12.576 ms
+ 4  po-2-rur02.monterey.ca.sfba.comcast.net (69.139.198.130)  11.942 ms  13.006 ms  11.187 ms
+ 5  be-322-rar01.hayward.ca.sfba.comcast.net (162.151.79.125)  15.834 ms  14.585 ms  14.182 ms
+ 6  be-3651-cr01.9greatoaks.ca.ibone.comcast.net (68.86.91.65)  20.519 ms  19.391 ms  18.958 ms
+ 7  be-12578-pe04.9greatoaks.ca.ibone.comcast.net (68.86.88.18)  21.533 ms  16.245 ms  16.981 ms
+ 8  66.208.232.54 (66.208.232.54)  17.822 ms  14.992 ms  14.722 ms
+ 9  104.31.95.59 (104.31.95.59)  18.362 ms  35.269 ms  14.133 ms
+Alexanders-MacBook-Pro:~ alexanderhardt$ 
+
+Alexanders-MacBook-Pro:~ alexanderhardt$ traceroute vatican.com
+traceroute: Warning: vatican.com has multiple addresses; using 104.27.157.101
+traceroute to vatican.com (104.27.157.101), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  3.566 ms  2.801 ms  3.616 ms
+ 2  96.120.90.153 (96.120.90.153)  11.029 ms  11.294 ms  11.279 ms
+ 3  po-103-rur01.monterey.ca.sfba.comcast.net (68.87.227.185)  9.718 ms  10.054 ms  10.197 ms
+ 4  po-2-rur02.monterey.ca.sfba.comcast.net (69.139.198.130)  12.060 ms  10.175 ms  10.047 ms
+ 5  be-322-rar01.hayward.ca.sfba.comcast.net (162.151.79.125)  15.363 ms  13.772 ms  14.323 ms
+ 6  be-3651-cr01.9greatoaks.ca.ibone.comcast.net (68.86.91.65)  18.860 ms  16.871 ms  17.633 ms
+ 7  be-12578-pe04.9greatoaks.ca.ibone.comcast.net (68.86.88.18)  15.096 ms  16.145 ms  15.243 ms
+ 8  66.208.232.54 (66.208.232.54)  15.107 ms  14.040 ms  19.107 ms
+ 9  104.27.157.101 (104.27.157.101)  14.181 ms  15.570 ms  14.166 ms
+Alexanders-MacBook-Pro:~ alexanderhardt$ 
+
+Alexanders-MacBook-Pro:~ alexanderhardt$ traceroute navycaptain-therealnavy.blogspot.com
+traceroute to blogspot.l.googleusercontent.com (172.217.5.97), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  3.398 ms  3.985 ms  6.353 ms
+ 2  96.120.90.153 (96.120.90.153)  13.497 ms  12.178 ms  11.499 ms
+ 3  po-103-rur01.monterey.ca.sfba.comcast.net (68.87.227.185)  12.554 ms  9.549 ms  11.568 ms
+ 4  po-2-rur02.monterey.ca.sfba.comcast.net (69.139.198.130)  9.795 ms  10.607 ms  10.324 ms
+ 5  be-322-rar01.hayward.ca.sfba.comcast.net (162.151.79.125)  13.603 ms  14.724 ms  29.769 ms
+ 6  be-399-ar01.hayward.ca.sfba.comcast.net (68.86.143.89)  13.567 ms  13.637 ms  15.285 ms
+ 7  96.112.146.14 (96.112.146.14)  16.107 ms
+    69.241.91.94 (69.241.91.94)  14.032 ms
+    96.112.146.10 (96.112.146.10)  14.346 ms
+ 8  * * *
+ 9  108.170.237.8 (108.170.237.8)  15.062 ms
+    209.85.251.8 (209.85.251.8)  40.573 ms
+    108.170.237.22 (108.170.237.22)  19.724 ms
+10  108.170.242.83 (108.170.242.83)  15.076 ms
+    108.170.242.254 (108.170.242.254)  15.273 ms
+    108.170.242.94 (108.170.242.94)  17.817 ms
+11  66.249.94.29 (66.249.94.29)  15.419 ms
+    sfo03s07-in-f97.1e100.net (172.217.5.97)  16.045 ms  14.563 ms
+Alexanders-MacBook-Pro:~ alexanderhardt$ 
+
+
+Alexanders-MacBook-Pro:~ alexanderhardt$ traceroute facebook.com
+traceroute to facebook.com (157.240.22.35), 64 hops max, 52 byte packets
+ 1  10.0.0.1 (10.0.0.1)  8.427 ms  3.744 ms  6.114 ms
+ 2  96.120.90.153 (96.120.90.153)  11.990 ms  11.813 ms  13.157 ms
+ 3  po-103-rur01.monterey.ca.sfba.comcast.net (68.87.227.185)  13.227 ms  11.666 ms  10.882 ms
+ 4  po-2-rur02.monterey.ca.sfba.comcast.net (69.139.198.130)  10.329 ms  10.091 ms  10.575 ms
+ 5  be-322-rar01.hayward.ca.sfba.comcast.net (162.151.79.125)  17.376 ms  14.982 ms  13.432 ms
+ 6  be-3651-cr01.9greatoaks.ca.ibone.comcast.net (68.86.91.65)  16.953 ms  18.289 ms  15.228 ms
+ 7  be-12578-pe04.9greatoaks.ca.ibone.comcast.net (68.86.88.18)  19.759 ms  17.223 ms  15.527 ms
+ 8  66.208.233.250 (66.208.233.250)  19.151 ms  13.719 ms  16.473 ms
+ 9  po141.asw02.sjc1.tfbnw.net (31.13.25.250)  16.019 ms
+    po141.asw04.sjc1.tfbnw.net (31.13.26.204)  28.359 ms
+    po141.asw01.sjc1.tfbnw.net (31.13.24.238)  22.353 ms
+10  po224.psw01.sjc3.tfbnw.net (31.13.28.159)  14.664 ms
+    po234.psw03.sjc3.tfbnw.net (157.240.48.7)  26.518 ms
+    po245.psw01.sjc3.tfbnw.net (31.13.29.197)  19.371 ms
+11  173.252.67.197 (173.252.67.197)  17.678 ms
+    173.252.67.185 (173.252.67.185)  18.280 ms
+    173.252.67.81 (173.252.67.81)  15.758 ms
+12  edge-star-mini-shv-01-sjc3.facebook.com (157.240.22.35)  13.898 ms  13.444 ms  13.755 ms
+Alexanders-MacBook-Pro:~ alexanderhardt$ 

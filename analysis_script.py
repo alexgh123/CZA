@@ -90,11 +90,27 @@ def analyzeFile(fileName):
 			# it means we don't have average ping time for it
 			try:
 				row_time = datetime.strptime(line[3], ' %d/%m/%Y %H:%M:%S %Z ')
+				# print(" ")
+				# print("good ping:")
+				# print(line)
+
 			except:
+				if(line[0] == "172.16.42.1 "):
+					# print("caught!")
+					# print(fileName)
+					# print(line)
+					continue
+				# else:
+				# 	# print
+				# 	print("we didn't catch this:")
+				# 	print(line)
+				# 	exit()
 				#if the above operation fails, we'll throw out the data
 				num_failed_recs +=1
-				# print("failed with this line:")
-				# print(line)
+				print(" ")
+				print(fileName)
+				print("failed with this line:")
+				print(line)
 				continue
 			seconds_since_midnight = (row_time - row_time.replace(hour=0, minute=0, second=0, microsecond=0)).total_seconds()
 			
@@ -204,18 +220,59 @@ all_corey_files = corey_weekday_files + corey_weekend_files
 
 c_a_weekend_files = alex_weekend_files +corey_weekend_files
 
-files_list = all_zaki_files
+files_list = all_files
+
+all_ping_times = {"google.com": [],"yahoo.com": [],"aline.com": [],"vatican.com": [],"facebook.com": [],"navycaptain-therealnavy.blogspot.com": [],"10.0.0.1": []}
 
 allHourlyAverages = []
-for file in files_list:
+
+for file in ["20181111_C_outFile.txt"]:#all_files:#, "20181111_C_outFile.txt", "20181111_Z_outFile.txt"]:
 	new_dict = analyzeFile(file)
-	hourlyAverage = getAverageHourlyPing(new_dict)
+	
+	# print(new_dict.keys())
+	# print(new_dict["google.com"])
+	for url, nested_ping_times in new_dict.iteritems():
+		for ping_time in nested_ping_times:
+			# print(" ")
+			# print("this is our ping_time:")
+			# print(ping_time)
+			# print("this is our list for this url:")
+			# print(url)
+			# print(all_ping_times[url])
+			all_ping_times[url] = all_ping_times[url] + ping_time
+
+# print(all_ping_times["google.com"])
+# print(all_ping_times["google.com"])
+
+data = []
+order_of_urls = []
+for url, ping_vals in all_ping_times.iteritems():
+	data.append(ping_vals)
+	order_of_urls = order_of_urls + [url]
+	# plt.boxplot(all_ping_times[url])
+	# plt.set_xlabel(url)
+	# plt.set_ylabel("latency, ms")
+	# a = raw_input("hit enter")
+
+bp = plt.boxplot(data, notch=0, sym='+', vert=1, whis=1.5)
+fig, ax1 = plt.subplots(figsize=(10, 6))
+fig.canvas.set_window_title('A Boxplot Example')
+plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
+plt.setp(bp['boxes'], color='black')
+plt.setp(bp['whiskers'], color='black')
+plt.setp(bp['fliers'], color='red', marker='+')
+
+print(order_of_urls)
+plt.show()
+exit()
+
+	# hourlyAverage = getAverageHourlyPing(new_dict)
 	# print(hourlyAverage)
 	# print("this file:")
 	# print(file)
 	# print("generates this data:")
 	# print(hourlyAverage)
-	allHourlyAverages.append(hourlyAverage)
+	# allHourlyAverages.append(hourlyAverage)
 
 
 
